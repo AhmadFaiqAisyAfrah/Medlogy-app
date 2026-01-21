@@ -1,0 +1,6 @@
+{
+  "/page": "app/page.js",
+  "/(platform)/analysis/page": "app/(platform)/analysis/page.js",
+  "/(platform)/support/page": "app/(platform)/support/page.js",
+  "/(platform)/global-health-news/page": "app/(platform)/global-health-news/page.js"
+}
