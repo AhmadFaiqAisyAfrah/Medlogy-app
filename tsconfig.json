@@ -1,21 +1,24 @@
 {
   "include": ["src/**/*"],
   "compilerOptions": {
-    /* Base Options: */
-    "esModuleInterop": true,
-    "skipLibCheck": true,
     "target": "es2022",
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "module": "preserve",
     "moduleDetection": "force",
     "isolatedModules": true,
-    /* Strictness */
+
     "strict": true,
     "noImplicitOverride": true,
-    "module": "preserve",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+
     "outDir": "dist/module",
     "sourceMap": true,
-    /* AND if you're building for a library: */
     "declaration": true,
-    /* If your code runs in the DOM: */
-    "lib": ["es2022", "dom", "dom.iterable"]
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   }
 }
