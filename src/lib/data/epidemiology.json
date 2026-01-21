@@ -1,0 +1,114 @@
+[
+    {
+        "date": "2025-12-01",
+        "cases": 45,
+        "deaths": 0,
+        "recovered": 12,
+        "hospitalized": 5,
+        "positivity_rate": 0.05
+    },
+    {
+        "date": "2025-12-02",
+        "cases": 52,
+        "deaths": 0,
+        "recovered": 15,
+        "hospitalized": 6,
+        "positivity_rate": 0.05
+    },
+    {
+        "date": "2025-12-03",
+        "cases": 68,
+        "deaths": 0,
+        "recovered": 18,
+        "hospitalized": 8,
+        "positivity_rate": 0.06
+    },
+    {
+        "date": "2025-12-04",
+        "cases": 85,
+        "deaths": 1,
+        "recovered": 22,
+        "hospitalized": 12,
+        "positivity_rate": 0.08
+    },
+    {
+        "date": "2025-12-05",
+        "cases": 110,
+        "deaths": 1,
+        "recovered": 25,
+        "hospitalized": 15,
+        "positivity_rate": 0.09
+    },
+    {
+        "date": "2025-12-06",
+        "cases": 145,
+        "deaths": 2,
+        "recovered": 30,
+        "hospitalized": 22,
+        "positivity_rate": 0.11
+    },
+    {
+        "date": "2025-12-07",
+        "cases": 180,
+        "deaths": 3,
+        "recovered": 35,
+        "hospitalized": 28,
+        "positivity_rate": 0.12
+    },
+    {
+        "date": "2025-12-08",
+        "cases": 210,
+        "deaths": 4,
+        "recovered": 40,
+        "hospitalized": 35,
+        "positivity_rate": 0.13
+    },
+    {
+        "date": "2025-12-09",
+        "cases": 250,
+        "deaths": 5,
+        "recovered": 45,
+        "hospitalized": 42,
+        "positivity_rate": 0.15
+    },
+    {
+        "date": "2025-12-10",
+        "cases": 310,
+        "deaths": 6,
+        "recovered": 50,
+        "hospitalized": 48,
+        "positivity_rate": 0.16
+    },
+    {
+        "date": "2025-12-11",
+        "cases": 380,
+        "deaths": 7,
+        "recovered": 60,
+        "hospitalized": 55,
+        "positivity_rate": 0.18
+    },
+    {
+        "date": "2025-12-12",
+        "cases": 420,
+        "deaths": 8,
+        "recovered": 70,
+        "hospitalized": 62,
+        "positivity_rate": 0.18
+    },
+    {
+        "date": "2025-12-13",
+        "cases": 460,
+        "deaths": 9,
+        "recovered": 80,
+        "hospitalized": 70,
+        "positivity_rate": 0.19
+    },
+    {
+        "date": "2025-12-14",
+        "cases": 510,
+        "deaths": 11,
+        "recovered": 90,
+        "hospitalized": 78,
+        "positivity_rate": 0.20
+    }
+]

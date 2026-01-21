@@ -1,0 +1,32 @@
+{
+    "scenarioId": "SCN-2026-IDN-FLU",
+    "name": "Influenza B/Jakarta-2026 Outbreak",
+    "startDate": "2025-12-01",
+    "location": "Jakarta, Indonesia",
+    "pathogen": {
+        "name": "Influenza B",
+        "strain": "B/Jakarta/26/Yamagata-like",
+        "type": "Respiratory Virus",
+        "r0_initial": 1.4,
+        "r0_current": 1.1
+    },
+    "status": "Active - Monitoring",
+    "description": "Anomalous spike in ILI (Influenza-like Illness) detected in urban centers. Early genomic sequencing suggests a novel reassortment event.",
+    "phases": [
+        {
+            "day": 0,
+            "name": "Detection",
+            "description": "Surveillance systems trigger alert."
+        },
+        {
+            "day": 14,
+            "name": "Characterization",
+            "description": "Strain identified as potential rapid spreader."
+        },
+        {
+            "day": 30,
+            "name": "Mitigation",
+            "description": "Public health advisories issued."
+        }
+    ]
+}

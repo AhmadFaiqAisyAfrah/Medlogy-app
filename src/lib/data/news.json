@@ -1,0 +1,29 @@
+[
+    {
+        "id": "NEWS-001",
+        "date": "2025-12-02",
+        "source": "Local Health Gazette",
+        "title": "Unusual Spike in Respiratory Cases Reported in South Jakarta",
+        "summary": "Local clinics report a 20% increase in patient volume with severe flu-like symptoms. Ministry of Health investigating.",
+        "sentiment": "neutral",
+        "relevance_score": 0.8
+    },
+    {
+        "id": "NEWS-002",
+        "date": "2025-12-06",
+        "source": "Regional News Network",
+        "title": "Hospitals on Alert as Unknown Viral Strain Spreads",
+        "summary": "Bed occupancy rates rise as severe pneumonia cases surge. Initial tests negative for COVID-19 and known Flu A strains.",
+        "sentiment": "negative",
+        "relevance_score": 0.95
+    },
+    {
+        "id": "NEWS-003",
+        "date": "2025-12-14",
+        "source": "Global Health Watch",
+        "title": "WHO Monitor: Monitoring Cluster of Respiratory Illness in Indonesia",
+        "summary": "The World Health Organization has been notified of a cluster of respiratory illnesses. Genomic sequencing is underway.",
+        "sentiment": "serious",
+        "relevance_score": 1.0
+    }
+]
