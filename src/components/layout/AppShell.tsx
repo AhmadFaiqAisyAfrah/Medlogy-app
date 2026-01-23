@@ -6,8 +6,14 @@ import { Header } from "@/components/layout/Header";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { Conversation } from "@/app/actions/conversation";
 
-export function AppShell({ children }: { children: React.ReactNode }) {
+interface AppShellProps {
+    children: React.ReactNode;
+    initialConversations?: Conversation[];
+}
+
+export function AppShell({ children, initialConversations = [] }: AppShellProps) {
     // Sidebar state (Default open on desktop, closed on mobile)
     const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
@@ -24,7 +30,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                         transition={{ type: "spring", stiffness: 100, damping: 20 }}
                         className="z-40 h-screen fixed md:relative"
                     >
-                        <Sidebar />
+                        <Sidebar conversations={initialConversations} />
                     </motion.div>
                 )}
             </AnimatePresence>

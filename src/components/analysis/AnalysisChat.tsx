@@ -2,12 +2,11 @@
 
 import { useState, useEffect } from "react";
 import { AiPromptInput } from "@/components/ui/AiPromptInput";
-import { Sparkles, Bot, User, Menu } from "lucide-react";
+import { Sparkles, Bot, User } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 
-import { HistorySidebar } from "@/components/chat/HistorySidebar";
 import {
     Conversation,
     deleteConversation,
@@ -69,7 +68,9 @@ export function AnalysisChat({
     useEffect(() => {
         setMessages(initialMessages);
     }, [initialId]);
-    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+    // NOTE: Sidebar logic removed (C2-B1). 
+    // Navigation is now handled by the global app sidebar.
 
     const handleSearch = async (query: string) => {
         if (!query.trim()) return;
@@ -115,33 +116,9 @@ export function AnalysisChat({
 
     return (
         <div className="flex h-full relative overflow-hidden">
-            {/* Sidebar */}
-            <HistorySidebar
-                isOpen={isSidebarOpen}
-                onClose={() => setIsSidebarOpen(false)}
-                conversations={initialConversations}
-                currentId={initialId || null}
-                onSelect={(id) => router.push(`/analysis?id=${id}`)}
-                onNewChat={() => router.push("/analysis")}
-                onDelete={async (id) => {
-                    await deleteConversation(id);
-                    if (id === initialId) router.push("/analysis");
-                }}
-            />
-
             {/* Main */}
             <div className="flex-1 flex flex-col h-full max-w-3xl mx-auto w-full relative">
-                {/* Header */}
-                <div className="absolute top-4 left-4 z-10">
-                    <Button
-                        variant="ghost"
-                        size="icon"
-                        onClick={() => setIsSidebarOpen(true)}
-                        className="text-slate-400 hover:text-white"
-                    >
-                        <Menu size={20} />
-                    </Button>
-                </div>
+
 
                 {/* Messages */}
                 <div className="flex-1 overflow-y-auto space-y-6 p-4 pb-36 custom-scroll">

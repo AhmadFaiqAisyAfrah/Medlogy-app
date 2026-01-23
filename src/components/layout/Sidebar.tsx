@@ -11,10 +11,13 @@ import {
     MoreVertical,
     Workflow,
     LineChart,
-    Coffee
+    Coffee,
+    Plus,
+    MessageSquare
 } from "lucide-react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
+import { Conversation } from "@/app/actions/conversation";
 
 const navItems = [
     { icon: LayoutDashboard, label: "Overview", href: "/" },
@@ -26,8 +29,14 @@ const navItems = [
     { icon: Coffee, label: "Buy Me a Coffee", href: "/support" }
 ];
 
-export function Sidebar() {
+interface SidebarProps {
+    conversations?: Conversation[];
+}
+
+export function Sidebar({ conversations = [] }: SidebarProps) {
     const pathname = usePathname();
+    const searchParams = useSearchParams();
+    const currentId = searchParams.get("id");
 
     return (
         <aside className="w-64 h-screen p-4 hidden md:flex flex-col z-20">
@@ -44,7 +53,7 @@ export function Sidebar() {
                 </div>
 
                 {/* Navigation */}
-                <nav className="flex-1 space-y-1 px-2">
+                <nav className="space-y-1 px-2">
                     {navItems.map((item) => {
                         const isActive = pathname === item.href;
                         // Check explicit disabled flag OR hash href
@@ -69,6 +78,47 @@ export function Sidebar() {
                         );
                     })}
                 </nav>
+
+                {/* Analysis History (Structure Only - No Data) */}
+                {pathname?.startsWith("/analysis") && (
+                    <div className="flex-1 flex flex-col min-h-0 border-t border-white/5 mt-4 pt-4 px-4 overflow-hidden animate-in fade-in slide-in-from-left-5 duration-300">
+                        <div className="text-xs font-semibold text-slate-500 mb-3 px-1 uppercase tracking-wider flex items-center justify-between">
+                            <span>History</span>
+                        </div>
+
+                        <Link
+                            href="/analysis"
+                            className="flex items-center gap-2 w-full px-3 py-2 rounded-lg bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20 transition-all text-sm font-medium mb-4 shrink-0"
+                        >
+                            <Plus size={16} />
+                            <span>New Chat</span>
+                        </Link>
+
+                        <div className="flex-1 overflow-y-auto custom-scroll -mr-2 pr-2 space-y-1">
+                            {conversations.length === 0 ? (
+                                <div className="py-8 text-center bg-white/5 rounded-lg border border-white/5">
+                                    <p className="text-xs text-slate-500 italic">No conversations yet</p>
+                                </div>
+                            ) : (
+                                conversations.map((conv) => (
+                                    <Link
+                                        key={conv.id}
+                                        href={`/analysis?id=${conv.id}`}
+                                        className={cn(
+                                            "flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-all group",
+                                            currentId === conv.id
+                                                ? "bg-white/10 text-white border border-white/10"
+                                                : "text-slate-400 hover:bg-white/5 hover:text-slate-200"
+                                        )}
+                                    >
+                                        <MessageSquare size={14} className={cn("shrink-0", currentId === conv.id ? "text-primary" : "opacity-70")} />
+                                        <span className="truncate">{conv.title}</span>
+                                    </Link>
+                                ))
+                            )}
+                        </div>
+                    </div>
+                )}
             </GlassPanel>
         </aside>
     );
