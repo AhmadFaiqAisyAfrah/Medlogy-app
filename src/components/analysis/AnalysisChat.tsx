@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { AiPromptInput } from "@/components/ui/AiPromptInput";
 import { Sparkles, Bot, User, Menu } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -65,6 +65,10 @@ export function AnalysisChat({
     const router = useRouter();
     const [messages, setMessages] = useState<Message[]>(initialMessages);
     const [isLoading, setIsLoading] = useState(false);
+
+    useEffect(() => {
+        setMessages(initialMessages);
+    }, [initialId]);
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
     const handleSearch = async (query: string) => {
