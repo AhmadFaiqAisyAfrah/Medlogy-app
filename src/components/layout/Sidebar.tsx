@@ -18,7 +18,7 @@ import { usePathname } from "next/navigation";
 const navItems = [
     { icon: LayoutDashboard, label: "Overview", href: "/" },
     { icon: Activity, label: "Analysis", href: "/analysis" },
-    { icon: Newspaper, label: "News and Journal", href: "/global-health-news" },
+    { icon: Newspaper, label: "News and Journal", href: "/global-health-news", disabled: true },
     { icon: BookOpen, label: "Syntheses", href: "/reports" },
     { icon: Workflow, label: "Scenario Explorer", href: "#" }, // Disabled for MVP
     { icon: Coffee, label: "Buy Me a Coffee", href: "/support" }
@@ -45,17 +45,19 @@ export function Sidebar() {
                 <nav className="flex-1 space-y-1 px-2">
                     {navItems.map((item) => {
                         const isActive = pathname === item.href;
-                        const isDisabled = item.href === "#";
+                        // Check explicit disabled flag OR hash href
+                        const isDisabled = (item as any).disabled || item.href === "#";
+
                         return (
                             <Link
                                 key={item.label}
-                                href={item.href}
+                                href={isDisabled ? "#" : item.href}
                                 className={cn(
                                     "flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-all group",
                                     isActive
                                         ? "bg-primary/10 text-primary border border-primary/20"
                                         : isDisabled
-                                            ? "text-slate-600 cursor-not-allowed"
+                                            ? "text-slate-600 cursor-not-allowed pointer-events-none"
                                             : "text-slate-400 hover:text-white hover:bg-white/5"
                                 )}
                             >
