@@ -18,7 +18,7 @@ import { usePathname } from "next/navigation";
 const navItems = [
     { icon: LayoutDashboard, label: "Overview", href: "/" },
     { icon: Activity, label: "Analysis", href: "/analysis" },
-    { icon: Newspaper, label: "Global Health News", href: "/global-health-news" },
+    { icon: Newspaper, label: "News and Journal", href: "/global-health-news" },
     { icon: BookOpen, label: "Syntheses", href: "/reports" },
     { icon: Workflow, label: "Scenario Explorer", href: "#" }, // Disabled for MVP
     { icon: Coffee, label: "Buy Me a Coffee", href: "/support" }
