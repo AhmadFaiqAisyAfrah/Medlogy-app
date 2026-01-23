@@ -10,6 +10,7 @@ import {
     Settings,
     MoreVertical,
     Workflow,
+    LineChart,
     Coffee
 } from "lucide-react";
 import Link from "next/link";
@@ -18,6 +19,7 @@ import { usePathname } from "next/navigation";
 const navItems = [
     { icon: LayoutDashboard, label: "Overview", href: "/" },
     { icon: Activity, label: "Analysis", href: "/analysis" },
+    { icon: LineChart, label: "Chart", href: "/chart" },
     { icon: Newspaper, label: "News and Journal", href: "/global-health-news", disabled: true },
     { icon: BookOpen, label: "Syntheses", href: "/reports" },
     { icon: Workflow, label: "Scenario Explorer", href: "#" }, // Disabled for MVP
