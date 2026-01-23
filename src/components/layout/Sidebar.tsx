@@ -107,7 +107,7 @@ export function Sidebar({ conversations = [] }: SidebarProps) {
                                         className={cn(
                                             "flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-all group",
                                             currentId === conv.id
-                                                ? "bg-white/10 text-white border border-white/10"
+                                                ? "bg-primary/10 text-primary border border-primary/20"
                                                 : "text-slate-400 hover:bg-white/5 hover:text-slate-200"
                                         )}
                                     >
