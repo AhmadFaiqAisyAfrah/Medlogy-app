@@ -227,26 +227,11 @@ export function Sidebar({ conversations = [] }: SidebarProps) {
 
                     <button
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className="flex items-center gap-3 w-full p-2 rounded-lg hover:bg-white/5 transition-colors group"
+                        className="flex items-center justify-center w-full p-2 rounded-lg hover:bg-white/5 transition-colors group"
                     >
-                        <div className="w-9 h-9 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shrink-0 border border-white/10">
+                        <div className="w-9 h-9 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shrink-0 border border-white/10 group-hover:border-white/20 transition-colors">
                             <User size={16} className="text-white/80" />
                         </div>
-                        <div className="flex-1 text-left min-w-0">
-                            <p className="text-sm font-medium text-white truncate">
-                                {user ? "Medlogy User" : "Guest"}
-                            </p>
-                            <p className="text-[10px] text-slate-500 truncate">
-                                {user?.email || "Not logged in"}
-                            </p>
-                        </div>
-                        <ChevronUp
-                            size={14}
-                            className={cn(
-                                "text-slate-500 transition-transform duration-200",
-                                isMenuOpen && "rotate-180"
-                            )}
-                        />
                     </button>
                 </div>
             </GlassPanel>
