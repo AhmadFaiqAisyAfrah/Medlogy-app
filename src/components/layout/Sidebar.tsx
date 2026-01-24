@@ -6,10 +6,8 @@ import {
     LayoutDashboard,
     Activity,
     Newspaper,
-    BookOpen,
     Settings,
     MoreVertical,
-    Workflow,
     LineChart,
     Coffee,
     Plus,
@@ -24,8 +22,6 @@ const navItems = [
     { icon: Activity, label: "Analysis", href: "/analysis" },
     { icon: LineChart, label: "Chart", href: "/chart" },
     { icon: Newspaper, label: "News and Journal", href: "/global-health-news", disabled: true },
-    { icon: BookOpen, label: "Syntheses", href: "/reports" },
-    { icon: Workflow, label: "Scenario Explorer", href: "#" }, // Disabled for MVP
     { icon: Coffee, label: "Buy Me a Coffee", href: "/support" }
 ];
 
