@@ -22,6 +22,7 @@ import {
     Settings,
     LogOut,
     ChevronUp,
+    LogIn, // Added
 } from "lucide-react";
 
 /* =========================
@@ -196,43 +197,53 @@ export function Sidebar({ conversations = [] }: SidebarProps) {
                     className="mt-auto border-t border-white/5 p-4 relative"
                 >
                     {isMenuOpen && (
-                        <div className="absolute bottom-full left-0 w-full mb-2 bg-slate-950/90 border border-white/10 rounded-xl p-2 shadow-xl backdrop-blur-xl">
-                            <button className="w-full flex items-center gap-2 px-3 py-2 text-sm text-slate-300 hover:text-white hover:bg-white/5 rounded-lg">
+                        <div className="absolute bottom-full left-0 w-full mb-2 bg-slate-950/90 border border-white/10 rounded-xl p-2 shadow-xl backdrop-blur-xl animate-in slide-in-from-bottom-2 fade-in duration-200">
+                            <button className="w-full flex items-center gap-2 px-3 py-2 text-sm text-slate-300 hover:text-white hover:bg-white/5 rounded-lg transition-colors text-left mb-1">
                                 <Settings size={16} />
-                                Settings
+                                <span>Settings</span>
                             </button>
 
-                            <form action={signout}>
-                                <button
-                                    type="submit"
-                                    className="w-full flex items-center gap-2 px-3 py-2 text-sm text-red-400 hover:text-red-300 hover:bg-red-500/10 rounded-lg"
+                            {user ? (
+                                <form action={signout}>
+                                    <button
+                                        type="submit"
+                                        className="w-full flex items-center gap-2 px-3 py-2 text-sm text-red-400 hover:text-red-300 hover:bg-red-500/10 rounded-lg transition-colors text-left"
+                                    >
+                                        <LogOut size={16} />
+                                        <span>Sign Out</span>
+                                    </button>
+                                </form>
+                            ) : (
+                                <Link
+                                    href="/login"
+                                    className="w-full flex items-center gap-2 px-3 py-2 text-sm text-primary hover:text-primary/90 hover:bg-primary/10 rounded-lg transition-colors text-left"
                                 >
-                                    <LogOut size={16} />
-                                    Sign Out
-                                </button>
-                            </form>
+                                    <LogIn size={16} />
+                                    <span>Login</span>
+                                </Link>
+                            )}
                         </div>
                     )}
 
                     <button
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className="flex items-center gap-3 w-full p-2 rounded-lg hover:bg-white/5"
+                        className="flex items-center gap-3 w-full p-2 rounded-lg hover:bg-white/5 transition-colors group"
                     >
-                        <div className="w-9 h-9 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+                        <div className="w-9 h-9 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shrink-0 border border-white/10">
                             <User size={16} className="text-white/80" />
                         </div>
                         <div className="flex-1 text-left min-w-0">
                             <p className="text-sm font-medium text-white truncate">
-                                {user?.email ? "Medlogy User" : "Guest"}
+                                {user ? "Medlogy User" : "Guest"}
                             </p>
                             <p className="text-[10px] text-slate-500 truncate">
-                                {user?.email || "Click to login"}
+                                {user?.email || "Not logged in"}
                             </p>
                         </div>
                         <ChevronUp
                             size={14}
                             className={cn(
-                                "text-slate-500 transition-transform",
+                                "text-slate-500 transition-transform duration-200",
                                 isMenuOpen && "rotate-180"
                             )}
                         />
