@@ -15,7 +15,8 @@ export default function ChartPage() {
         isHydrated
     } = useChartPersistence();
 
-    const { data } = useMockData(chartState);
+    const { data, loading } = useMockData(chartState);
+    const hasPrimary = !!chartState.primary.indicator;
 
     if (!isHydrated) return null;
 
@@ -33,7 +34,11 @@ export default function ChartPage() {
             </PortalToHeader>
 
             <div className="flex-1 border border-white/5 rounded-xl bg-white/5 overflow-hidden">
-                <ChartCanvas data={data} />
+                <ChartCanvas
+                    data={data}
+                    loading={loading}
+                    hasPrimary={hasPrimary}
+                />
             </div>
         </div>
     );

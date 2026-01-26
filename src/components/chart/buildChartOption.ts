@@ -106,7 +106,17 @@ export function buildChartOption(seriesList: ChartSeries[]): EChartsOption {
 
         legend: {
             bottom: 0,
-            textStyle: { color: "#94a3b8" },
+            type: "scroll", // Allow scrolling for many series
+            icon: "circle",
+            itemGap: 24,
+            textStyle: {
+                color: "#94a3b8",
+                fontSize: 12
+            },
+            formatter: (name: string) => {
+                // Truncate long names, but keeping reasonable length
+                return name.length > 30 ? name.slice(0, 30) + '...' : name;
+            },
             data: series.map((s: any) => s.name)
         },
 
