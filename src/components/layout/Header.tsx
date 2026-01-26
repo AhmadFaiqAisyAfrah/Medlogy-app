@@ -44,8 +44,8 @@ export function Header({ isLanding = false, toggleSidebar, isSidebarOpen = true 
     // APP MODE HEADER (Minimal - user profile moved to sidebar)
     if (!isLanding) {
         return (
-            <header className="px-6 py-4 z-30 pointer-events-none">
-                <div className="pointer-events-auto inline-block">
+            <header className="px-6 py-4 z-30 flex items-center gap-4 sticky top-0">
+                <div className="pointer-events-auto shrink-0">
                     <GlassPanel className="p-2" noBorder>
                         <button
                             onClick={toggleSidebar}
@@ -55,6 +55,9 @@ export function Header({ isLanding = false, toggleSidebar, isSidebarOpen = true 
                         </button>
                     </GlassPanel>
                 </div>
+
+                {/* Dynamic Slot for Page-Specific Toolbar Injection */}
+                <div id="header-slot" className="flex-1 min-w-0 pointer-events-auto flex items-center" />
             </header>
         );
     }
