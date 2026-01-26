@@ -5,10 +5,9 @@ import { ChartSeries, ChartPoint } from "@/lib/chart/contract";
  * So charts don't jump on every reload
  */
 function seededRandom(seed: number) {
-    let value = seed % 2147483647;
     return () => {
-        value = (value * 16807) % 2147483647;
-        return (value - 1) / 2147483646;
+        const x = Math.sin(seed++) * 10000;
+        return x - Math.floor(x);
     };
 }
 

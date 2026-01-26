@@ -2,6 +2,7 @@ import { ChartSeries } from "@/lib/chart/contract";
 import { OWID_SOURCES } from "./sources";
 import { fetchOwidData } from "./client";
 import { indicatorRegistry } from "@/lib/chart/indicatorRegistry";
+import { generateMockSeries } from "@/lib/data/mock/mockSeriesGenerator";
 
 export async function getOwidSeries(
     indicatorId: string,
@@ -26,13 +27,18 @@ export async function getOwidSeries(
 
     // 🔒 Hybrid handling
     if (sourceConfig.redistributable === false) {
-        return {
-            id: `${indicatorId}-${region}`,
-            indicator: indicatorMeta.label,
+        // Use SHARED Deterministic Mock Generator
+        const [minYear, maxYear] = indicatorMeta.availableYears;
+        const mockSeries = generateMockSeries(
+            indicatorMeta.id, // Ensure we pass the ID
             region,
-            unit: indicatorMeta.unit,
-            source: "MOCK",
-            data: generateMockSeries(indicatorMeta),
+            minYear,
+            maxYear
+        );
+
+        return {
+            ...mockSeries,
+            id: `${indicatorId}-${region}`,
             meta: indicatorMeta
         };
     }
@@ -58,16 +64,4 @@ export async function getOwidSeries(
         data: cleanData,
         meta: indicatorMeta
     };
-}
-
-/** Simple deterministic mock */
-function generateMockSeries(meta: any) {
-    const [min, max] = meta.availableYears;
-    return Array.from({ length: max - min + 1 }, (_, i) => ({
-        date: String(min + i),
-        value: Math.round(
-            meta.mockRange[0] +
-            Math.random() * (meta.mockRange[1] - meta.mockRange[0])
-        )
-    }));
 }

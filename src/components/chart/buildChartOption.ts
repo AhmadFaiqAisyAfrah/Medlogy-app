@@ -4,8 +4,6 @@ import { getIndicatorMeta } from "@/lib/chart/indicatorRegistry";
 import { formatValue } from "./normalizeSeries";
 
 export function buildChartOption(seriesList: ChartSeries[]): EChartsOption {
-    console.log("[VERIFY] buildChartOption input", seriesList);
-
     if (!seriesList || seriesList.length === 0) return {};
 
     // 1. Unified Category Axis (Years)

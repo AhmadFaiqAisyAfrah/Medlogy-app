@@ -11,11 +11,8 @@ const CACHE = new Map<string, any[]>();
  */
 export async function fetchOwidData(config: OwidSourceConfig): Promise<any[]> {
     if (CACHE.has(config.url)) {
-        console.log(`[OWID] Cache Hit: ${config.label}`);
         return CACHE.get(config.url)!;
     }
-
-    console.log(`[OWID] Fetching: ${config.label} from ${config.url}`);
 
     try {
         const res = await fetch(config.url, {

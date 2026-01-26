@@ -41,8 +41,6 @@ export function useOwidData(state: ChartState) {
 
         setData(series);
         setLoading(false);
-
-        console.log("🧪 MOCK DATA GENERATED", series);
     }, [state]);
 
     return { data, loading };

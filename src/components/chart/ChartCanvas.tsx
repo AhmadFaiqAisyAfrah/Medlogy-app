@@ -11,22 +11,26 @@ interface ChartCanvasProps {
 export function ChartCanvas({ data }: ChartCanvasProps) {
     const containerRef = useRef<HTMLDivElement>(null);
 
-    useEffect(() => {
-        console.log("[VERIFY] ChartCanvas Rendered. Data length:", data?.length);
-    });
+    // Filter out mock series to check if we have "real" data or just mock fallbacks
+    // Actually, we treat mock data as data for rendering purposes.
+    // We just need to check if data is completely empty.
+
+    const hasData = data && data.length > 0;
 
     // Hook manages the instance inside the div
     useChartInstance(containerRef, data);
 
     return (
-        <div className="w-full h-full min-h-[400px] relative bg-slate-950/20">
-            {/* Overlay if No Data (optional ux, but keep simple for now) */}
-            {(!data || data.length === 0) && (
-                <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
-                    <span className="text-slate-500">No chart data available</span>
+        <div className="w-full h-full min-h-[400px] relative">
+            {/* Empty State Overlay */}
+            {!hasData && (
+                <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none z-10 space-y-2">
+                    <span className="text-4xl opacity-20">📊</span>
+                    <span className="text-slate-500 text-sm">Select an indicator to begin</span>
                 </div>
             )}
 
+            {/* Container ALWAYS renders for ECharts lifecycle */}
             <div
                 ref={containerRef}
                 className="w-full h-full min-h-[400px]"
