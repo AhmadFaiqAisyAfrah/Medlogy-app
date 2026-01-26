@@ -4,49 +4,81 @@ import { fetchOwidData } from "./client";
 import { indicatorRegistry } from "@/lib/chart/indicatorRegistry";
 import { generateMockSeries } from "@/lib/data/mock/mockSeriesGenerator";
 
+// Output Contract
+export type AdapterResult =
+    | { status: "ok"; series: ChartSeries }
+    | { status: "mock"; series: ChartSeries }
+    | { status: "error"; message: string };
+
+// Shared processed cache (Indicator+Region -> AdapterResult)
+const SERIES_CACHE = new Map<string, AdapterResult>();
+
 export async function getOwidSeries(
     indicatorId: string,
     region: string
-): Promise<ChartSeries | null> {
+): Promise<AdapterResult> {
+    const cacheKey = `${indicatorId}-${region}`;
 
-    // 1. Resolve Config & Meta (STRICT)
-    const sourceConfig = OWID_SOURCES[indicatorId];
-    if (!sourceConfig) {
-        console.warn(`[OWID] No source config for ID: ${indicatorId}`);
-        // Cannot fetch without URL, returning null is safe (or throw if strict)
-        return null;
+    // 0. Cache Hit
+    if (SERIES_CACHE.has(cacheKey)) {
+        return SERIES_CACHE.get(cacheKey)!;
     }
 
-    // Direct Lookup - Single Source of Truth
+    // 1. Resolve Config
+    const sourceConfig = OWID_SOURCES[indicatorId];
     const indicatorMeta = indicatorRegistry[indicatorId];
 
-    // HARD ASSERTION
     if (!indicatorMeta) {
-        throw new Error(`[Adapter] CRITICAL: Registry mismatch. ID '${indicatorId}' not found in indicatorRegistry.`);
+        return { status: "error", message: `Indicator ID '${indicatorId}' not registered` };
     }
 
-    // 🔒 Hybrid handling
-    if (sourceConfig.redistributable === false) {
-        // Use SHARED Deterministic Mock Generator
+    // A. Mock Fallback (Redistribution Restricted)
+    if (sourceConfig?.redistributable === false) {
         const [minYear, maxYear] = indicatorMeta.availableYears;
-        const mockSeries = generateMockSeries(
-            indicatorMeta.id, // Ensure we pass the ID
-            region,
-            minYear,
-            maxYear
-        );
+        const mockSeries = generateMockSeries(indicatorMeta.id, region, minYear, maxYear);
 
-        return {
-            ...mockSeries,
-            id: `${indicatorId}-${region}`,
-            meta: indicatorMeta
+        const result: AdapterResult = {
+            status: "mock",
+            series: {
+                ...mockSeries,
+                id: cacheKey,
+                meta: indicatorMeta
+            }
         };
+        SERIES_CACHE.set(cacheKey, result);
+        return result;
     }
 
-    const rawData = await fetchOwidData(sourceConfig);
-    if (!rawData?.length) return null;
+    // B. Real Data Fetch
+    if (!sourceConfig) {
+        return { status: "error", message: "No source config found for real data" };
+    }
 
-    const cleanData = rawData
+    const { data, error } = await fetchOwidData(sourceConfig);
+
+    // Error Handling
+    if (error) {
+        if (error.type === "LICENSING" || error.type === "BLOCKED") {
+            // Fallback to mock on licensing error
+            const [min, max] = indicatorMeta.availableYears;
+            const mock = generateMockSeries(indicatorMeta.id, region, min, max);
+            const result: AdapterResult = {
+                status: "mock",
+                series: { ...mock, id: cacheKey, meta: indicatorMeta }
+            };
+            SERIES_CACHE.set(cacheKey, result);
+            return result;
+        }
+
+        return { status: "error", message: error.message };
+    }
+
+    if (!data || data.length === 0) {
+        return { status: "error", message: "No data available" };
+    }
+
+    // Processing
+    const cleanData = data
         .filter(row => row.Entity === region)
         .map(row => ({
             date: row[sourceConfig.columns.date],
@@ -55,13 +87,23 @@ export async function getOwidSeries(
         .filter(p => !isNaN(p.value))
         .sort((a, b) => Number(a.date) - Number(b.date));
 
-    return {
-        id: `${indicatorId}-${region}`,
-        indicator: indicatorMeta.label,
-        region,
-        unit: indicatorMeta.unit,
-        source: "OWID",
-        data: cleanData,
-        meta: indicatorMeta
+    if (cleanData.length === 0) {
+        return { status: "error", message: `No data for region: ${region}` };
+    }
+
+    const result: AdapterResult = {
+        status: "ok",
+        series: {
+            id: cacheKey,
+            indicator: indicatorMeta.label,
+            region,
+            unit: indicatorMeta.unit,
+            source: "OWID",
+            data: cleanData,
+            meta: indicatorMeta
+        }
     };
+
+    SERIES_CACHE.set(cacheKey, result);
+    return result;
 }

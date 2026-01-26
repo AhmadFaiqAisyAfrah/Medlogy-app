@@ -9,38 +9,60 @@ const CACHE = new Map<string, any[]>();
  * Fetches and parses CSV data from OWID.
  * Returns raw array of objects.
  */
-export async function fetchOwidData(config: OwidSourceConfig): Promise<any[]> {
+interface OwidResult {
+    data?: any[];
+    error?: {
+        type: "LICENSING" | "NETWORK" | "PARSING" | "BLOCKED";
+        message: string;
+    };
+}
+
+export async function fetchOwidData(config: OwidSourceConfig): Promise<OwidResult> {
     if (CACHE.has(config.url)) {
-        return CACHE.get(config.url)!;
+        return { data: CACHE.get(config.url)! };
     }
 
     try {
         const res = await fetch(config.url, {
-            next: { revalidate: 3600 } // Next.js specific: Cache for 1 hour
+            next: { revalidate: 3600 }
         });
 
-        // 1. Strict Status Guard
+        // 1. Strict Status Handling
         if (res.status === 403) {
-            console.warn(`[OWID] Licensing Block (403): ${config.label}`);
-            throw { type: "LICENSING_BLOCK", message: "Data restricted by OWID licensing" };
+            return {
+                error: { type: "LICENSING", message: "Data restricted by OWID licensing" }
+            };
         }
 
-        if (!res.ok) {
-            throw { type: "HTTP_ERROR", status: res.status, message: res.statusText };
+        if (res.status !== 200) {
+            return {
+                error: { type: "NETWORK", message: `HTTP ${res.status}: ${res.statusText}` }
+            };
         }
 
-        // 2. Only parse if OK
         const text = await res.text();
+
+        // 2. Safe Parsing
+        if (!text || text.trim().length === 0) {
+            return {
+                error: { type: "PARSING", message: "Empty response" }
+            };
+        }
+
         const data = parseCSV(text);
+        if (data.length === 0) {
+            return {
+                error: { type: "PARSING", message: "Invalid or empty CSV" }
+            };
+        }
 
         CACHE.set(config.url, data);
-        return data;
-    } catch (error: any) {
-        if (error.type === "LICENSING_BLOCK") {
-            throw error; // Re-throw to be handled by adapter
-        }
-        console.error(`[OWID] Error fetching ${config.label}:`, error);
-        return [];
+        return { data };
+
+    } catch (err: any) {
+        return {
+            error: { type: "NETWORK", message: err.message || "Network request failed" }
+        };
     }
 }
 

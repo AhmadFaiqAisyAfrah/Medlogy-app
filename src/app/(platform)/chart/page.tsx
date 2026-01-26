@@ -4,7 +4,7 @@ import { ChartToolbar } from "@/components/chart/ChartToolbar";
 import { PortalToHeader } from "@/components/layout/PortalToHeader";
 import { ChartCanvas } from "@/components/chart/ChartCanvas";
 import { useChartPersistence } from "@/hooks/useChartPersistence";
-import { useMockData } from "@/hooks/useMockData";
+import { useOwidData } from "@/hooks/useOwidData";
 
 export default function ChartPage() {
     const {
@@ -15,7 +15,7 @@ export default function ChartPage() {
         isHydrated
     } = useChartPersistence();
 
-    const { data, loading } = useMockData(chartState);
+    const { data, loading, error } = useOwidData(chartState);
     const hasPrimary = !!chartState.primary.indicator;
 
     if (!isHydrated) return null;
@@ -37,6 +37,7 @@ export default function ChartPage() {
                 <ChartCanvas
                     data={data}
                     loading={loading}
+                    error={error}
                     hasPrimary={hasPrimary}
                 />
             </div>
