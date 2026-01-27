@@ -42,7 +42,13 @@ export async function getOwidSeries(
             series: {
                 ...mockSeries,
                 id: cacheKey,
-                meta: indicatorMeta
+                meta: {
+                    ...indicatorMeta,
+                    isMock: true,
+                    hasGaps: false,
+                    coverageRatio: 1,
+                    sourceAttribution: sourceConfig.attribution + " (Simulated for Demo)"
+                }
             }
         };
         SERIES_CACHE.set(cacheKey, result);
@@ -77,19 +83,20 @@ export async function getOwidSeries(
         return { status: "error", message: "No data available" };
     }
 
-    // Processing
-    const cleanData = data
-        .filter(row => row.Entity === region)
-        .map(row => ({
+    // Processing (C2: Quality & Gaps)
+    const rawCleaned = data
+        .filter((row: any) => row.Entity === region)
+        .map((row: any) => ({
             date: row[sourceConfig.columns.date],
             value: Number(row[sourceConfig.columns.value])
         }))
-        .filter(p => !isNaN(p.value))
-        .sort((a, b) => Number(a.date) - Number(b.date));
+        .filter((p: any) => !isNaN(p.value));
 
-    if (cleanData.length === 0) {
+    if (rawCleaned.length === 0) {
         return { status: "error", message: `No data for region: ${region}` };
     }
+
+    const { data: finalData, flags } = processDataQuality(rawCleaned, sourceConfig, indicatorMeta);
 
     const result: AdapterResult = {
         status: "ok",
@@ -99,11 +106,78 @@ export async function getOwidSeries(
             region,
             unit: indicatorMeta.unit,
             source: "OWID",
-            data: cleanData,
-            meta: indicatorMeta
+            data: finalData,
+            meta: {
+                ...indicatorMeta,
+                ...flags
+            }
         }
     };
 
     SERIES_CACHE.set(cacheKey, result);
     return result;
+}
+
+/* ----------------------------------------------------
+   C2.2, C2.5 HELPER: GAP FILLING & QUALITY SCORING
+   ---------------------------------------------------- */
+function processDataQuality(
+    rawData: { date: string | number; value: number }[],
+    sourceConfig: any,
+    meta: any
+) {
+    if (!rawData.length) {
+        return {
+            data: [],
+            flags: { hasGaps: false, coverageRatio: 0, isMock: false }
+        };
+    }
+
+    // 1. Convert to standardized points
+    // Ensure numeric years for sorting logic if needed, but keep string for ChartPoint
+    const points = rawData.map(p => ({
+        year: Number(p.date),
+        date: String(p.date), // "2000"
+        value: p.value
+    })).sort((a, b) => a.year - b.year);
+
+    const minYear = points[0].year;
+    const maxYear = points[points.length - 1].year;
+    const totalYears = maxYear - minYear + 1;
+
+    // 2. Fill Gaps
+    const yearMap = new Map(points.map(p => [p.year, p.value]));
+    const data: import("@/lib/chart/contract").ChartPoint[] = [];
+    let presentCount = 0;
+
+    for (let year = minYear; year <= maxYear; year++) {
+        if (yearMap.has(year)) {
+            data.push({ date: String(year), value: yearMap.get(year)! });
+            presentCount++;
+        } else {
+            // INSERT GAP
+            data.push({ date: String(year), value: null });
+        }
+    }
+
+    // 3. Compute Flags
+    const coverageRatio = presentCount / totalYears;
+    const hasGaps = coverageRatio < 1.0;
+
+    // C2.6: Dev Diagnostics
+    if (process.env.NODE_ENV === "development") {
+        if (hasGaps) {
+            console.debug(`[DataQuality] ${meta.label}: Coverage ${Math.round(coverageRatio * 100)}% (${presentCount}/${totalYears} years)`);
+        }
+    }
+
+    return {
+        data,
+        flags: {
+            hasGaps,
+            coverageRatio,
+            sourceAttribution: sourceConfig.attribution,
+            isMock: false
+        }
+    };
 }

@@ -3,18 +3,40 @@ import { ChartSeries } from "@/lib/chart/contract";
 import { ChartState } from "@/components/chart/chart.types";
 import { getOwidSeries } from "@/lib/data/owid/adapter";
 
+/* -----------------------------------------
+   Helper: Slice data by selected timeframe
+------------------------------------------ */
+function sliceByTimeframe(
+    series: ChartSeries[],
+    start: number | null,
+    end: number | null
+): ChartSeries[] {
+    if (!start || !end) return series;
+
+    return series.map(s => ({
+        ...s,
+        data: s.data.filter(p => {
+            const year = Number(p.date);
+            return year >= start && year <= end;
+        })
+    }));
+}
+
+/* -----------------------------------------
+   Hook
+------------------------------------------ */
 export function useOwidData(state: ChartState) {
     const [data, setData] = useState<ChartSeries[]>([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
-    // Track latest request to avoid race conditions
+    // Prevent race conditions on fast switching
     const requestIdRef = useRef(0);
 
     useEffect(() => {
-        const { primary, comparisons } = state;
+        const { primary, comparisons, timeRange } = state;
 
-        // Reset if no primary
+        // Reset when no primary selected
         if (!primary.indicator || !primary.region) {
             setData([]);
             setError(null);
@@ -28,10 +50,12 @@ export function useOwidData(state: ChartState) {
             setError(null);
 
             try {
-                // 1. Fetch Primary
-                const primaryResult = await getOwidSeries(primary.indicator!, primary.region!);
+                /* ---------- Primary ---------- */
+                const primaryResult = await getOwidSeries(
+                    primary.indicator,
+                    primary.region
+                );
 
-                // If outdated request, ignore
                 if (currentId !== requestIdRef.current) return;
 
                 if (primaryResult.status === "error") {
@@ -40,31 +64,37 @@ export function useOwidData(state: ChartState) {
                     return;
                 }
 
-                // 2. Fetch Comparisons (Parallel)
+                const collected: ChartSeries[] = [
+                    primaryResult.series
+                ];
+
+                /* ---------- Comparisons ---------- */
                 const comparisonPromises = comparisons
                     .filter(c => c.indicator && c.region)
                     .map(c => getOwidSeries(c.indicator!, c.region!));
 
                 const comparisonResults = await Promise.all(comparisonPromises);
 
-                // If outdated request, ignore
                 if (currentId !== requestIdRef.current) return;
-
-                const validSeries = [primaryResult.series];
 
                 comparisonResults.forEach(res => {
                     if (res.status === "ok" || res.status === "mock") {
-                        validSeries.push(res.series);
-                    } else {
-                        // Silent fail for individual comparison errors, but maybe warn?
-                        // For now we just omit them to prevent breaking the whole chart
+                        collected.push(res.series);
                     }
                 });
 
-                setData(validSeries);
+                /* ---------- 🔥 TIMEFRAME SLICING ---------- */
+                const sliced = sliceByTimeframe(
+                    collected,
+                    timeRange.startYear,
+                    timeRange.endYear
+                );
+
+                setData(sliced);
+
             } catch (err: any) {
                 if (currentId === requestIdRef.current) {
-                    setError(err.message || "Unknown error occurred");
+                    setError(err?.message || "Unknown error occurred");
                 }
             } finally {
                 if (currentId === requestIdRef.current) {
@@ -74,7 +104,6 @@ export function useOwidData(state: ChartState) {
         };
 
         fetchAll();
-
     }, [state]);
 
     return { data, loading, error };

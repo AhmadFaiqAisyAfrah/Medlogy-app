@@ -16,23 +16,33 @@ export function buildChartOption(seriesList: ChartSeries[]): EChartsOption {
 
     // 2. Axis Configuration
     // Detect secondary axis requirement
-    const hasSecondaryAxis = seriesList.some(s => {
+    const secondaryIndicator = seriesList.find(s => {
         const meta = getIndicatorMeta(s.indicator);
         return meta?.recommendedAxis === "secondary";
     });
 
+    // Get units
+    const primaryUnit = seriesList[0]?.unit || "";
+    const secondaryUnit = secondaryIndicator?.unit || "";
+
     const yAxis: any[] = [
         {
             type: "value",
+            name: primaryUnit, // C2.4: Axis Label
+            nameTextStyle: { color: "#64748b", padding: [0, 0, 0, 10] },
             splitLine: { show: true, lineStyle: { color: "#1e293b" } },
             axisLabel: { color: "#94a3b8" }
         }
     ];
 
+    const hasSecondaryAxis = !!secondaryIndicator;
+
     if (hasSecondaryAxis) {
         yAxis.push({
             type: "value",
+            name: secondaryUnit, // C2.4: Axis Label
             position: "right",
+            nameTextStyle: { color: "#b45309", padding: [0, 10, 0, 0] },
             splitLine: { show: false },
             axisLabel: { color: "#fbbf24" }
         });

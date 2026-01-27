@@ -81,6 +81,25 @@ export function ChartCanvas({ data, loading, error, hasPrimary }: ChartCanvasPro
                 ref={containerRef}
                 className="w-full h-full min-h-[400px]"
             />
+
+            {/* C2.1: Source Attribution Footer */}
+            {hasData && (
+                <div className="absolute bottom-1 right-2 z-10 text-[9px] text-slate-500/60 max-w-[80%] text-right pointer-events-none select-none">
+                    {Array.from(new Set(data.map(s => s.meta?.sourceAttribution).filter(Boolean)))
+                        .map((attr, i) => (
+                            <div key={i}>{attr}</div>
+                        ))
+                    }
+                </div>
+            )}
+
+            {/* C2.2: Data Quality Warning (Non-blocking) */}
+            {hasData && data.some(s => s.meta?.hasGaps && (s.meta.coverageRatio || 0) < 0.8) && (
+                <div className="absolute bottom-8 left-2 z-10 bg-amber-900/20 border border-amber-900/30 px-2 py-1 rounded text-[10px] text-amber-500/80 flex items-center gap-1.5 backdrop-blur-md pointer-events-none">
+                    <span className="text-amber-500 text-xs">⚠️</span>
+                    <span>Data incomplete for selected period</span>
+                </div>
+            )}
         </div>
     );
 }

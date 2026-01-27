@@ -54,7 +54,7 @@ export const OWID_SOURCES: Record<string, OwidSourceConfig> = {
         columns: {
             date: "Year",
             entity: "Entity",
-            value: "Deaths - Tuberculosis - Sex: Both - Age: Age-standardized (Rate)" // Specific GBD/WHO name
+            value: "Deaths - Tuberculosis" // Specific GBD/WHO name
         },
         attribution: "Data adapted from WHO, Global Tuberculosis Report.",
         redistributable: true

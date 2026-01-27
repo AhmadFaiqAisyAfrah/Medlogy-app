@@ -41,9 +41,20 @@ export interface ChartSeries {
     data: ChartPoint[];
 
     /** 
-     * Metadata from registry (optional but helpful for rendering) 
+     * Metadata from registry and analysis (Data Quality, Attribution) 
      */
-    meta?: any;
+    meta?: ChartSeriesMeta;
+}
+
+export interface ChartSeriesMeta {
+    availableYears?: [number, number]; // From registry
+    isMock?: boolean;
+    hasGaps?: boolean;
+    coverageRatio?: number; // 0-1
+    sourceAttribution?: string;
+    description?: string;
+    unit?: string;
+    [key: string]: any;
 }
 
 // CACHE / RESPONSE WRAPPER
