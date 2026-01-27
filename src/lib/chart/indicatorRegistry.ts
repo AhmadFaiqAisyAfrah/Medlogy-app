@@ -23,6 +23,17 @@ export const indicatorRegistry: Record<string, IndicatorMeta> = {
         availableYears: [1990, 2019],
     },
 
+    life_expectancy: {
+        id: "life_expectancy",
+        label: "Life expectancy",
+        unit: "years",
+        scale: "linear",
+        normalization: "none",
+        recommendedAxis: "shared",
+        mockRange: [40, 85],
+        availableYears: [1950, 2023],
+    },
+
     hiv_prevalence: {
         id: "hiv_prevalence",
         label: "HIV prevalence",
