@@ -51,60 +51,61 @@ export function useOwidData(state: ChartState) {
 
             try {
                 /* ---------- Primary ---------- */
-                const primaryResult = await getOwidSeries(
-                    primary.indicator,
-                    primary.region
-                );
+                if (!primary.indicator || !primary.region) {
+                    const primaryResult = await getOwidSeries(
+                        primary.indicator,
+                        primary.region
+                    );
 
-                if (currentId !== requestIdRef.current) return;
+                    if (currentId !== requestIdRef.current) return;
 
-                if (primaryResult.status === "error") {
-                    setError(primaryResult.message);
-                    setLoading(false);
-                    return;
-                }
-
-                const collected: ChartSeries[] = [
-                    primaryResult.series
-                ];
-
-                /* ---------- Comparisons ---------- */
-                const comparisonPromises = comparisons
-                    .filter(c => c.indicator && c.region)
-                    .map(c => getOwidSeries(c.indicator!, c.region!));
-
-                const comparisonResults = await Promise.all(comparisonPromises);
-
-                if (currentId !== requestIdRef.current) return;
-
-                comparisonResults.forEach(res => {
-                    if (res.status === "ok" || res.status === "mock") {
-                        collected.push(res.series);
+                    if (primaryResult.status === "error") {
+                        setError(primaryResult.message);
+                        setLoading(false);
+                        return;
                     }
-                });
 
-                /* ---------- 🔥 TIMEFRAME SLICING ---------- */
-                const sliced = sliceByTimeframe(
-                    collected,
-                    timeRange.startYear,
-                    timeRange.endYear
-                );
+                    const collected: ChartSeries[] = [
+                        primaryResult.series
+                    ];
 
-                setData(sliced);
+                    /* ---------- Comparisons ---------- */
+                    const comparisonPromises = comparisons
+                        .filter(c => c.indicator && c.region)
+                        .map(c => getOwidSeries(c.indicator!, c.region!));
 
-            } catch (err: any) {
-                if (currentId === requestIdRef.current) {
-                    setError(err?.message || "Unknown error occurred");
+                    const comparisonResults = await Promise.all(comparisonPromises);
+
+                    if (currentId !== requestIdRef.current) return;
+
+                    comparisonResults.forEach(res => {
+                        if (res.status === "ok" || res.status === "mock") {
+                            collected.push(res.series);
+                        }
+                    });
+
+                    /* ---------- 🔥 TIMEFRAME SLICING ---------- */
+                    const sliced = sliceByTimeframe(
+                        collected,
+                        timeRange.startYear,
+                        timeRange.endYear
+                    );
+
+                    setData(sliced);
+
+                } catch (err: any) {
+                    if (currentId === requestIdRef.current) {
+                        setError(err?.message || "Unknown error occurred");
+                    }
+                } finally {
+                    if (currentId === requestIdRef.current) {
+                        setLoading(false);
+                    }
                 }
-            } finally {
-                if (currentId === requestIdRef.current) {
-                    setLoading(false);
-                }
-            }
-        };
+            };
 
-        fetchAll();
-    }, [state]);
+            fetchAll();
+        }, [state]);
 
     return { data, loading, error };
 }
