@@ -1,52 +1,77 @@
-import { IndicatorMeta } from "@/lib/chart/indicatorRegistry";
+import { ChartSeries } from "@/lib/chart/contract";
 
-// MOCK DATA GENERATOR
-// Simulates realistic epidemiological curves
-export function generateMockSeriesData(meta: IndicatorMeta, days = 365) {
-    const [min, max] = meta.mockRange;
-    const data: [string, number][] = [];
+/**
+ * Medlogy Chart Normalization (YEARLY-ONLY)
+ *
+ * Rules:
+ * 1. ALL dates are coerced into YEAR string ("YYYY")
+ * 2. X-axis uses INTERSECTION of years across all series
+ * 3. Missing years are filled with null
+ * 4. Output is SAFE for ECharts category axis
+ */
+export function normalizeSeries(seriesList: ChartSeries[]): ChartSeries[] {
+    if (!seriesList || seriesList.length === 0) return [];
 
-    // Random starting point within range
-    let currentValue = min + Math.random() * (max - min);
+    /* ======================================================
+       1. Convert ALL dates → YEAR ("YYYY")
+    ====================================================== */
+    const yearlySeries = seriesList.map(series => {
+        const yearlyData = series.data
+            .map(p => {
+                if (!p.date) return null;
 
-    const now = new Date();
+                // Handle "YYYY" or "YYYY-MM-DD"
+                const year = p.date.length >= 4 ? p.date.slice(0, 4) : p.date;
 
-    // Generate backwards from today
-    for (let i = days; i >= 0; i--) {
-        const date = new Date(now);
-        date.setDate(date.getDate() - i);
+                return {
+                    date: year,
+                    value: p.value
+                };
+            })
+            .filter(Boolean) as { date: string; value: number | null }[];
 
-        // Random Walk with drift
-        const change = (Math.random() - 0.5) * ((max - min) * 0.05);
-        currentValue += change;
+        return {
+            ...series,
+            data: yearlyData
+        };
+    });
 
-        // Keep bounds
-        if (currentValue < 0) currentValue = 0;
-        // Don't strict cap max to allow some spikes
+    /* ======================================================
+       2. Collect YEAR SET per series
+    ====================================================== */
+    const yearSets = yearlySeries.map(series =>
+        new Set(series.data.map(p => p.date))
+    );
 
-        data.push([
-            date.toISOString().split("T")[0], // YYYY-MM-DD
-            Number(currentValue.toFixed(2))
-        ]);
-    }
-    return data;
-}
+    /* ======================================================
+       3. INTERSECTION of ALL years
+       (critical for proper compare)
+    ====================================================== */
+    const commonYears = [...yearSets[0]].filter(year =>
+        yearSets.every(set => set.has(year))
+    );
 
-// NORMALIZATION & FORMATTING
-// In a real app, this might transform units (e.g. absolute -> per 100k)
-// For now, since we generate data *already in the target unit* (via mockRange),
-// this function primarily serves as a pass-through or formatter.
-export function normalizeSeries(data: [string, number][], meta: IndicatorMeta) {
-    // If we needed to normalize raw counts to per_100k, we would need population data here.
-    // Since our mock data is already "Cases per 100k" or "%", we pass through.
-    return data;
-}
+    // Sort numerically
+    commonYears.sort((a, b) => Number(a) - Number(b));
 
-export function formatValue(value: number, meta: IndicatorMeta): string {
-    const num = Number(value);
-    if (meta.unit === "%") return `${num.toFixed(1)}%`;
-    if (meta.unit === "cases per 100k") return num.toFixed(1);
+    if (commonYears.length === 0) return [];
 
-    if (num > 1000) return `${(num / 1000).toFixed(1)}k`;
-    return num.toFixed(0);
+    /* ======================================================
+       4. Rebuild each series aligned to COMMON YEARS
+    ====================================================== */
+    return yearlySeries.map(series => {
+        const valueMap = new Map(
+            series.data.map(p => [p.date, p.value])
+        );
+
+        const normalizedData = commonYears.map(year => ({
+            date: year,
+            value: valueMap.has(year) ? valueMap.get(year)! : null
+        }));
+
+        return {
+            ...series,
+            data: normalizedData
+        };
+    });
 }

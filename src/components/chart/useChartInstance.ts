@@ -2,23 +2,21 @@ import { useEffect, useRef } from "react";
 import * as echarts from "echarts";
 import { ChartSeries } from "@/lib/chart/contract";
 import { buildChartOption } from "./buildChartOption";
+import { normalizeSeries } from "./normalizeSeries";
 
 export function useChartInstance(
     containerRef: React.RefObject<HTMLDivElement>,
-    data: ChartSeries[]
+    rawData: ChartSeries[]
 ) {
     const instance = useRef<echarts.ECharts | null>(null);
 
-    // 1. Lifecycle: Initialize Chart EXACTLY ONCE
+    // Init ONCE
     useEffect(() => {
         if (!containerRef.current) return;
-
-        // Prevent double init if React StrictMode runs effect twice
         if (instance.current) return;
 
         instance.current = echarts.init(containerRef.current);
 
-        // Resize Observer
         const ro = new ResizeObserver(() => {
             instance.current?.resize();
         });
@@ -31,16 +29,21 @@ export function useChartInstance(
         };
     }, []);
 
-    // 2. Data Update: Set Option ONLY
+    // Update data
     useEffect(() => {
         if (!instance.current) return;
 
-        const options = buildChartOption(data);
+        if (!rawData || rawData.length === 0) {
+            instance.current.clear();
+            return;
+        }
+
+        const normalized = normalizeSeries(rawData);
+        const options = buildChartOption(normalized);
 
         instance.current.setOption(options, {
-            notMerge: true, // Complete refresh of components
-            lazyUpdate: false // Apply immediately
+            notMerge: true,
+            lazyUpdate: false,
         });
-
-    }, [data]);
+    }, [rawData]);
 }
