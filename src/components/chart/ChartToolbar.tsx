@@ -77,7 +77,7 @@ export function ChartToolbar({
     const handleAddComparison = () => {
         setComparisonSeries([
             ...comparisonSeries,
-            { id: `compare-${Date.now()}`, indicator: null, region: null }
+            { id: `compare-${Date.now()}`, indicator: "", region: "" }
         ]);
     };
 
