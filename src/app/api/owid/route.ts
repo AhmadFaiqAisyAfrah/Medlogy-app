@@ -1,17 +1,12 @@
 // app/api/owid/route.ts
 import { NextResponse } from "next/server"
+import { getCache, setCache } from "./cache" // ✅ TAMBAHAN
 
 /**
  * Mapping internal Medlogy indicator → OWID Grapher slug
- * NOTE:
- * - Grapher menyediakan CSV publik & stabil
- * - JSON grapher TIDAK publik
  */
 const OWID_INDICATOR_MAP: Record<string, string> = {
     life_expectancy: "life-expectancy",
-    // nanti:
-    // dengue_incidence: "dengue-incidence",
-    // tuberculosis_incidence: "tuberculosis-incidence",
 }
 
 export async function GET(req: Request) {
@@ -35,7 +30,14 @@ export async function GET(req: Request) {
         )
     }
 
-    // 2️⃣ Fetch CSV Grapher (ENDPOINT RESMI)
+    // 🔁 CACHE CHECK (NEW)
+    const cacheKey = `${indicator}:${region}`
+    const cached = getCache<any>(cacheKey)
+    if (cached) {
+        return NextResponse.json(cached)
+    }
+
+    // 2️⃣ Fetch CSV Grapher
     const url = `https://ourworldindata.org/grapher/${slug}.csv`
 
     let csvText: string
@@ -55,14 +57,13 @@ export async function GET(req: Request) {
         )
     }
 
-    // 3️⃣ Parse CSV (minimal & robust)
+    // 3️⃣ Parse CSV
     const lines = csvText.trim().split("\n")
     const headers = lines[0].split(",")
 
-    const idxEntity = headers.indexOf("Entity")
     const idxCode = headers.indexOf("Code")
     const idxYear = headers.indexOf("Year")
-    const idxValue = headers.length - 1 // nilai indikator biasanya kolom terakhir
+    const idxValue = headers.length - 1
 
     if (idxCode === -1 || idxYear === -1) {
         return NextResponse.json(
@@ -88,11 +89,16 @@ export async function GET(req: Request) {
         )
     }
 
-    // 4️⃣ Response sesuai kontrak frontend
-    return NextResponse.json({
-        source: "OWID",
+    // 4️⃣ Response final
+    const response = {
+        source: "OWID" as const,
         indicator: indicator.replace("_", " "),
-        unit: "", // unit bisa ditambahkan nanti via registry
+        unit: "",
         data,
-    })
+    }
+
+    // 🔁 SAVE CACHE (NEW)
+    setCache(cacheKey, response)
+
+    return NextResponse.json(response)
 }
