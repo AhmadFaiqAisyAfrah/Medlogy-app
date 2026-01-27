@@ -29,7 +29,7 @@ export function generateMockSeries(
     const rand = seededRandom(seed);
 
     let base = getBaseValue(indicator);
-    let trend = getTrend(indicator);
+    const trend = getTrend(indicator);
 
     const data: ChartPoint[] = [];
 
@@ -38,12 +38,15 @@ export function generateMockSeries(
         base = base * (1 + trend) + noise;
 
         data.push({
-            date: String(year),
+            date: `${year}-01-01`,
             value: Math.max(0, Number(base.toFixed(2))),
         });
     }
 
     return {
+        /** 🔑 REQUIRED BY ChartSeries */
+        id: `mock-${indicator}-${region}`,
+
         indicator,
         region,
         unit: getUnit(indicator),

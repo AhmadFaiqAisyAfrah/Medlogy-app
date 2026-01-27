@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ChartSeries } from "@/lib/chart/contract";
 import { ChartState } from "@/components/chart/chart.types";
 import { getOwidSeries } from "@/lib/data/owid/adapter";
@@ -16,9 +16,9 @@ function sliceByTimeframe(
     return series.map(s => ({
         ...s,
         data: s.data.filter(p => {
-            const year = Number(p.date);
+            const year = Number(p.date.slice(0, 4));
             return year >= start && year <= end;
-        })
+        }),
     }));
 }
 
@@ -36,7 +36,7 @@ export function useOwidData(state: ChartState) {
     useEffect(() => {
         const { primary, comparisons, timeRange } = state;
 
-        // Reset when no primary selected
+        // 🚧 Guard awal: belum ada primary → reset
         if (!primary.indicator || !primary.region) {
             setData([]);
             setError(null);
@@ -50,62 +50,74 @@ export function useOwidData(state: ChartState) {
             setError(null);
 
             try {
+                /**
+                 * 🔑 CRITICAL FIX:
+                 * Copy ke variable lokal agar TypeScript
+                 * yakin ini string (bukan string | null)
+                 */
+                const indicator = primary.indicator;
+                const region = primary.region;
+
+                if (!indicator || !region) return;
+
                 /* ---------- Primary ---------- */
-                if (!primary.indicator || !primary.region) {
-                    const primaryResult = await getOwidSeries(
-                        primary.indicator,
-                        primary.region
-                    );
+                const primaryResult = await getOwidSeries(
+                    indicator,
+                    region
+                );
 
-                    if (currentId !== requestIdRef.current) return;
+                if (currentId !== requestIdRef.current) return;
 
-                    if (primaryResult.status === "error") {
-                        setError(primaryResult.message);
-                        setLoading(false);
-                        return;
-                    }
-
-                    const collected: ChartSeries[] = [
-                        primaryResult.series
-                    ];
-
-                    /* ---------- Comparisons ---------- */
-                    const comparisonPromises = comparisons
-                        .filter(c => c.indicator && c.region)
-                        .map(c => getOwidSeries(c.indicator!, c.region!));
-
-                    const comparisonResults = await Promise.all(comparisonPromises);
-
-                    if (currentId !== requestIdRef.current) return;
-
-                    comparisonResults.forEach(res => {
-                        if (res.status === "ok" || res.status === "mock") {
-                            collected.push(res.series);
-                        }
-                    });
-
-                    /* ---------- 🔥 TIMEFRAME SLICING ---------- */
-                    const sliced = sliceByTimeframe(
-                        collected,
-                        timeRange.startYear,
-                        timeRange.endYear
-                    );
-
-                    setData(sliced);
-
-                } catch (err: any) {
-                    if (currentId === requestIdRef.current) {
-                        setError(err?.message || "Unknown error occurred");
-                    }
-                } finally {
-                    if (currentId === requestIdRef.current) {
-                        setLoading(false);
-                    }
+                if (primaryResult.status === "error") {
+                    setError(primaryResult.message);
+                    return;
                 }
-            };
 
-            fetchAll();
-        }, [state]);
+                const collected: ChartSeries[] = [
+                    primaryResult.series,
+                ];
+
+                /* ---------- Comparisons ---------- */
+                const comparisonPromises = comparisons
+                    .filter(c => c.indicator && c.region)
+                    .map(c =>
+                        getOwidSeries(
+                            c.indicator as string,
+                            c.region as string
+                        )
+                    );
+
+                const comparisonResults = await Promise.all(comparisonPromises);
+
+                if (currentId !== requestIdRef.current) return;
+
+                comparisonResults.forEach(res => {
+                    if (res.status === "ok" || res.status === "mock") {
+                        collected.push(res.series);
+                    }
+                });
+
+                /* ---------- Timeframe slicing ---------- */
+                const sliced = sliceByTimeframe(
+                    collected,
+                    timeRange.startYear,
+                    timeRange.endYear
+                );
+
+                setData(sliced);
+            } catch (err: any) {
+                if (currentId === requestIdRef.current) {
+                    setError(err?.message || "Unknown error occurred");
+                }
+            } finally {
+                if (currentId === requestIdRef.current) {
+                    setLoading(false);
+                }
+            }
+        };
+
+        fetchAll();
+    }, [state]);
 
     return { data, loading, error };
 }
