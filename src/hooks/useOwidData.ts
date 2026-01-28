@@ -36,7 +36,7 @@ export function useOwidData(state: ChartState) {
     useEffect(() => {
         const { primary, comparisons, timeRange } = state;
 
-        // 🚧 Guard awal: belum ada primary → reset
+        /* ---------- Guard awal ---------- */
         if (!primary.indicator || !primary.region) {
             setData([]);
             setError(null);
@@ -50,21 +50,13 @@ export function useOwidData(state: ChartState) {
             setError(null);
 
             try {
-                /**
-                 * 🔑 CRITICAL FIX:
-                 * Copy ke variable lokal agar TypeScript
-                 * yakin ini string (bukan string | null)
-                 */
                 const indicator = primary.indicator;
                 const region = primary.region;
 
                 if (!indicator || !region) return;
 
                 /* ---------- Primary ---------- */
-                const primaryResult = await getOwidSeries(
-                    indicator,
-                    region
-                );
+                const primaryResult = await getOwidSeries(indicator, region);
 
                 if (currentId !== requestIdRef.current) return;
 
@@ -73,9 +65,11 @@ export function useOwidData(state: ChartState) {
                     return;
                 }
 
-                const collected: ChartSeries[] = [
-                    primaryResult.series,
-                ];
+                // 🔑 SAFE: ok & mock both have `series`
+                const collected: ChartSeries[] = [];
+                if ("series" in primaryResult) {
+                    collected.push(primaryResult.series);
+                }
 
                 /* ---------- Comparisons ---------- */
                 const comparisonPromises = comparisons
@@ -92,7 +86,8 @@ export function useOwidData(state: ChartState) {
                 if (currentId !== requestIdRef.current) return;
 
                 comparisonResults.forEach(res => {
-                    if (res.status === "ok" || res.status === "mock") {
+                    // 🔑 CRITICAL FIX (TypeScript-safe)
+                    if ("series" in res) {
                         collected.push(res.series);
                     }
                 });

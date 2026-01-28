@@ -2,7 +2,7 @@ import { ChartSeries } from "@/lib/chart/contract";
 import { EChartsOption, SeriesOption } from "echarts";
 
 /* =========================================
-   LOCAL FORMATTER
+   LOCAL FORMATTERS
 ========================================= */
 function formatValue(value: number | null, unit?: string) {
     if (value === null || value === undefined) return "–";
@@ -13,10 +13,10 @@ function formatValue(value: number | null, unit?: string) {
 }
 
 function formatStatus(status?: string) {
-    if (status === "observed") return "Observed";
-    if (status === "modeled") return "Modeled";
-    if (status === "simulated") return "Simulated";
-    return "Unknown";
+    if (status === "observed") return "OBSERVED DATA";
+    if (status === "modeled") return "MODELED ESTIMATES";
+    if (status === "simulated") return "SIMULATED DATA";
+    return "UNKNOWN";
 }
 
 /* =========================================
@@ -25,10 +25,14 @@ function formatStatus(status?: string) {
 export function buildChartOption(seriesList: ChartSeries[]): EChartsOption {
     if (!seriesList || seriesList.length === 0) return {};
 
-    // Unified yearly axis (already normalized)
+    /* -----------------------------
+       1. Unified yearly axis
+    ----------------------------- */
     const years = seriesList[0].data.map(d => d.date);
 
-    // Axis detection
+    /* -----------------------------
+       2. Axis detection
+    ----------------------------- */
     const hasSecondaryAxis = seriesList.some(
         s => s.meta?.recommendedAxis === "secondary"
     );
@@ -58,13 +62,15 @@ export function buildChartOption(seriesList: ChartSeries[]): EChartsOption {
         });
     }
 
-    // Series
+    /* -----------------------------
+       3. Series
+    ----------------------------- */
     const series: SeriesOption[] = seriesList.map((s) => {
         const useSecondary = s.meta?.recommendedAxis === "secondary";
-        const status = formatStatus(s.meta?.dataStatus);
+        const statusLabel = formatStatus(s.meta?.dataStatus);
 
         return {
-            name: `${s.indicator}${s.region ? ` (${s.region})` : ""} · ${status}`,
+            name: `${s.indicator}${s.region ? ` (${s.region})` : ""} · ${statusLabel}`,
             type: "line",
             smooth: true,
             showSymbol: false,
@@ -75,26 +81,32 @@ export function buildChartOption(seriesList: ChartSeries[]): EChartsOption {
         };
     });
 
+    /* -----------------------------
+       4. Chart option
+    ----------------------------- */
     return {
         backgroundColor: "transparent",
 
         tooltip: {
             trigger: "axis",
             axisPointer: { type: "cross" },
-            formatter: (params: any[]) => {
-                if (!params || params.length === 0) return "";
 
-                const year = params[0].axisValue;
-                let html = `<div class="font-medium mb-2">${year}</div>`;
+            // 🔑 TYPE-SAFE FORMATTER (VERCEL SAFE)
+            formatter: (params: any) => {
+                const list = Array.isArray(params) ? params : [params];
+                if (list.length === 0) return "";
 
-                params.forEach(p => {
+                const year = list[0].axisValue;
+                let html = `<div style="font-weight:600;margin-bottom:6px">${year}</div>`;
+
+                list.forEach(p => {
                     const s = seriesList[p.seriesIndex];
                     const meta = s.meta;
 
                     html += `
-                        <div style="margin-bottom:6px">
+                        <div style="margin-bottom:8px">
                             <div style="font-size:12px;color:#e5e7eb">
-                                ${s.indicator} (${s.region})
+                                ${s.indicator}${s.region ? ` (${s.region})` : ""}
                             </div>
                             <div style="font-size:12px">
                                 <strong>${formatValue(p.data, s.unit)}</strong>
