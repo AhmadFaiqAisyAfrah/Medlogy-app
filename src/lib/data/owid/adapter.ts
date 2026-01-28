@@ -6,18 +6,19 @@ import { generateMockSeries } from "@/lib/data/mock/mockSeriesGenerator";
 
 export type AdapterResult =
     | { status: "ok"; series: ChartSeries }
-    | { status: "mock"; series: ChartSeries }
     | { status: "error"; message: string };
 
 const SERIES_CACHE = new Map<string, AdapterResult>();
 
-// 🔑 Region → ISO mapping (OWID CSV uses Code)
-const REGION_TO_ISO: Record<string, string> = {
+// Region normalization (CSV uses ISO codes)
+const REGION_TO_CODE: Record<string, string> = {
     Global: "OWID_WRL",
     Indonesia: "IDN",
-    Afghanistan: "AFG",
 };
 
+/* ======================================================
+   MAIN ADAPTER
+====================================================== */
 export async function getOwidSeries(
     indicatorId: string,
     region: string
@@ -26,101 +27,88 @@ export async function getOwidSeries(
     const cached = SERIES_CACHE.get(cacheKey);
     if (cached) return cached;
 
-    const indicatorMeta = indicatorRegistry[indicatorId];
-    if (!indicatorMeta) {
+    const meta = indicatorRegistry[indicatorId];
+    if (!meta) {
         return { status: "error", message: `Indicator '${indicatorId}' not registered` };
     }
 
     const sourceConfig = OWID_SOURCES[indicatorId];
+    const regionCode = REGION_TO_CODE[region] ?? region;
 
-    /* ---------- MOCK FALLBACK ---------- */
-    if (!sourceConfig || sourceConfig.redistributable === false) {
-        const [min, max] = indicatorMeta.availableYears;
-        const mock = generateMockSeries(indicatorMeta.id, region, min, max);
+    /* ======================================================
+       1. TRY REAL DATA (OBSERVED / MODELED)
+    ====================================================== */
+    if (sourceConfig) {
+        const { data, error } = await fetchOwidData(sourceConfig);
 
-        const result: AdapterResult = {
-            status: "mock",
-            series: {
-                ...mock,
-                id: cacheKey,
-                meta: {
-                    ...indicatorMeta,
-                    isMock: true,
-                    hasGaps: false,
-                    coverageRatio: 1,
-                    sourceAttribution:
-                        sourceConfig?.attribution ?? "Simulated (no real source)",
-                },
-            },
-        };
+        if (!error && data && data.length > 0) {
+            const { date, value, entity } = sourceConfig.columns;
 
-        SERIES_CACHE.set(cacheKey, result);
-        return result;
-    }
+            const cleaned = data
+                .filter((row: any) => row.Code === regionCode || row[entity] === region)
+                .map((row: any) => ({
+                    date: String(row[date]),
+                    value: Number(row[value]),
+                }))
+                .filter(p => !Number.isNaN(p.value));
 
-    /* ---------- FETCH REAL OWID CSV ---------- */
-    const { data, error } = await fetchOwidData(sourceConfig);
-    if (error) return { status: "error", message: error.message };
-    if (!data || data.length === 0) {
-        return { status: "error", message: "No data returned from OWID" };
-    }
+            if (cleaned.length > 0) {
+                const years = cleaned.map(p => Number(p.date));
+                const minYear = Math.min(...years);
+                const maxYear = Math.max(...years);
 
-    const dateCol = sourceConfig.columns.date;
-    const valueCol = sourceConfig.columns.value;
-    const targetCode = REGION_TO_ISO[region] ?? region;
+                const yearMap = new Map(cleaned.map(p => [p.date, p.value]));
+                const seriesData: ChartSeries["data"] = [];
 
-    const cleaned = data
-        .filter((row: any) => row.Code === targetCode)
-        .map((row: any) => ({
-            date: String(row[dateCol]),
-            value: Number(row[valueCol]),
-        }))
-        .filter(p => !Number.isNaN(p.value));
+                for (let y = minYear; y <= maxYear; y++) {
+                    seriesData.push({
+                        date: String(y),
+                        value: yearMap.get(String(y)) ?? null,
+                    });
+                }
 
-    if (cleaned.length === 0) {
-        return {
-            status: "error",
-            message: `No data for region '${region}'`,
-        };
-    }
+                const result: AdapterResult = {
+                    status: "ok",
+                    series: {
+                        id: cacheKey,
+                        indicator: meta.label,
+                        region,
+                        unit: meta.unit,
+                        source: "OWID",
+                        data: seriesData,
+                        meta: {
+                            ...meta,
+                            isMock: false,
+                            hasGaps: seriesData.some(d => d.value === null),
+                            coverageRatio:
+                                cleaned.length / (maxYear - minYear + 1),
+                        },
+                    },
+                };
 
-    const points = cleaned
-        .map(p => ({ year: Number(p.date), ...p }))
-        .sort((a, b) => a.year - b.year);
-
-    const minYear = points[0].year;
-    const maxYear = points[points.length - 1].year;
-    const yearMap = new Map(points.map(p => [p.year, p.value]));
-
-    const seriesData: ChartSeries["data"] = [];
-    let present = 0;
-
-    for (let y = minYear; y <= maxYear; y++) {
-        if (yearMap.has(y)) {
-            seriesData.push({ date: String(y), value: yearMap.get(y)! });
-            present++;
-        } else {
-            seriesData.push({ date: String(y), value: null });
+                SERIES_CACHE.set(cacheKey, result);
+                return result;
+            }
         }
     }
 
-    const coverageRatio = present / (maxYear - minYear + 1);
+    /* ======================================================
+       2. FALLBACK → SIMULATED (MOCK)
+    ====================================================== */
+    const [minYear, maxYear] = meta.availableYears;
+    const mock = generateMockSeries(meta.id, region, minYear, maxYear);
 
     const result: AdapterResult = {
         status: "ok",
         series: {
+            ...mock,
             id: cacheKey,
-            indicator: indicatorMeta.label,
-            region,
-            unit: indicatorMeta.unit,
-            source: "OWID",
-            data: seriesData,
             meta: {
-                ...indicatorMeta,
-                hasGaps: coverageRatio < 1,
-                coverageRatio,
-                isMock: false,
-                sourceAttribution: sourceConfig.attribution,
+                ...meta,
+                dataStatus: "simulated",
+                isMock: true,
+                hasGaps: false,
+                coverageRatio: 1,
             },
         },
     };

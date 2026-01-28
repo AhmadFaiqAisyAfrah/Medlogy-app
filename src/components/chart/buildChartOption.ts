@@ -1,34 +1,42 @@
 import { ChartSeries } from "@/lib/chart/contract";
 import { EChartsOption, SeriesOption } from "echarts";
-import { getIndicatorMeta } from "@/lib/chart/indicatorRegistry";
 
-/* ===============================
-   SAFE LOCAL FORMATTER
-================================ */
+/* =========================================
+   LOCAL FORMATTER
+========================================= */
 function formatValue(value: number | null, unit?: string) {
     if (value === null || value === undefined) return "–";
     if (unit === "%") return `${value.toFixed(1)}%`;
     if (unit?.includes("per 100k")) return value.toFixed(1);
+    if (value >= 1000) return `${(value / 1000).toFixed(1)}k`;
     return value.toFixed(1);
 }
 
+function formatStatus(status?: string) {
+    if (status === "observed") return "Observed";
+    if (status === "modeled") return "Modeled";
+    if (status === "simulated") return "Simulated";
+    return "Unknown";
+}
+
+/* =========================================
+   BUILD OPTION
+========================================= */
 export function buildChartOption(seriesList: ChartSeries[]): EChartsOption {
     if (!seriesList || seriesList.length === 0) return {};
 
-    // Unified X axis
+    // Unified yearly axis (already normalized)
     const years = seriesList[0].data.map(d => d.date);
 
     // Axis detection
-    const hasSecondaryAxis = seriesList.some(s => {
-        const meta = getIndicatorMeta(s.meta?.id ?? "");
-        return meta?.recommendedAxis === "secondary";
-    });
+    const hasSecondaryAxis = seriesList.some(
+        s => s.meta?.recommendedAxis === "secondary"
+    );
 
     const primaryUnit = seriesList[0]?.unit ?? "";
-    const secondarySeries = seriesList.find(s => {
-        const meta = getIndicatorMeta(s.meta?.id ?? "");
-        return meta?.recommendedAxis === "secondary";
-    });
+    const secondarySeries = seriesList.find(
+        s => s.meta?.recommendedAxis === "secondary"
+    );
     const secondaryUnit = secondarySeries?.unit ?? "";
 
     const yAxis: any[] = [
@@ -36,7 +44,7 @@ export function buildChartOption(seriesList: ChartSeries[]): EChartsOption {
             type: "value",
             name: primaryUnit,
             axisLabel: { color: "#94a3b8" },
-            splitLine: { lineStyle: { color: "#1e293b" } }
+            splitLine: { show: true, lineStyle: { color: "#1e293b" } }
         }
     ];
 
@@ -50,12 +58,13 @@ export function buildChartOption(seriesList: ChartSeries[]): EChartsOption {
         });
     }
 
+    // Series
     const series: SeriesOption[] = seriesList.map((s) => {
-        const meta = getIndicatorMeta(s.meta?.id ?? "");
-        const useSecondary = meta?.recommendedAxis === "secondary";
+        const useSecondary = s.meta?.recommendedAxis === "secondary";
+        const status = formatStatus(s.meta?.dataStatus);
 
         return {
-            name: `${s.indicator}${s.region ? ` (${s.region})` : ""}`,
+            name: `${s.indicator}${s.region ? ` (${s.region})` : ""} · ${status}`,
             type: "line",
             smooth: true,
             showSymbol: false,
@@ -72,20 +81,28 @@ export function buildChartOption(seriesList: ChartSeries[]): EChartsOption {
         tooltip: {
             trigger: "axis",
             axisPointer: { type: "cross" },
-            formatter: (params: any) => {
-                const list = Array.isArray(params) ? params : [params];
-                const year = list[0]?.axisValueLabel ?? "";
+            formatter: (params: any[]) => {
+                if (!params || params.length === 0) return "";
 
-                let html = `<div style="margin-bottom:6px;font-weight:600">${year}</div>`;
+                const year = params[0].axisValue;
+                let html = `<div class="font-medium mb-2">${year}</div>`;
 
-                list.forEach(p => {
+                params.forEach(p => {
                     const s = seriesList[p.seriesIndex];
+                    const meta = s.meta;
+
                     html += `
-                        <div style="display:flex;justify-content:space-between;font-size:11px">
-                            <span>${p.seriesName}</span>
-                            <span style="font-family:monospace">
-                                ${formatValue(p.data, s.unit)}
-                            </span>
+                        <div style="margin-bottom:6px">
+                            <div style="font-size:12px;color:#e5e7eb">
+                                ${s.indicator} (${s.region})
+                            </div>
+                            <div style="font-size:12px">
+                                <strong>${formatValue(p.data, s.unit)}</strong>
+                                <span style="color:#94a3b8"> ${s.unit}</span>
+                            </div>
+                            <div style="font-size:10px;color:#94a3b8">
+                                ${formatStatus(meta?.dataStatus)} — ${meta?.source ?? "Unknown source"}
+                            </div>
                         </div>
                     `;
                 });
@@ -97,7 +114,7 @@ export function buildChartOption(seriesList: ChartSeries[]): EChartsOption {
         legend: {
             bottom: 0,
             type: "scroll",
-            textStyle: { color: "#94a3b8" }
+            textStyle: { color: "#94a3b8", fontSize: 11 }
         },
 
         grid: {
