@@ -120,6 +120,28 @@ export const indicatorRegistry: Record<string, IndicatorMeta> = {
     },
 
     /* ======================================================
+       🟣 ZIKA INCIDENCE — MODELED
+       ====================================================== */
+    zika_incidence: {
+        id: "zika_incidence",
+        label: "Zika incidence",
+        unit: "new cases per 100k",
+        scale: "linear",
+        normalization: "per_100k",
+        recommendedAxis: "shared",
+        mockRange: [0, 100],
+        availableYears: [1990, 2019],
+
+        // IHME GBD (Observed + Modeled)
+        dataStatus: "modeled",
+        source: "IHME, Global Burden of Disease (GBD 2019)",
+        ingestion: {
+            type: "local_ihme",
+            param: "zika_incidence.json" // Single multi-region file
+        }
+    },
+
+    /* ======================================================
        🔴 TUBERCULOSIS INCIDENCE — MODELED
        ====================================================== */
     tb_incidence: {
