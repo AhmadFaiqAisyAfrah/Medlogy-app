@@ -1,21 +1,30 @@
 // src/lib/chart/indicatorRegistry.ts
 
+export type DataStatus = "observed" | "modeled" | "simulated";
+
 export interface IndicatorMeta {
     id: string;
     label: string;
     unit: string;
+
+    // Chart behavior
     scale: "linear" | "log";
     normalization: "none" | "per_100k" | "percentage" | "index";
     recommendedAxis: "shared" | "secondary";
+
+    // Mock fallback (ONLY used if no real data ingestion)
     mockRange: [number, number];
     availableYears: [number, number];
 
-    // 🔑 NEW
-    dataStatus: "observed" | "modeled" | "simulated";
+    // 🔑 DATA SEMANTICS (SOURCE OF TRUTH)
+    dataStatus: DataStatus;
     source: string;
 }
 
 export const indicatorRegistry: Record<string, IndicatorMeta> = {
+    /* ======================================================
+       🟠 DENGUE INCIDENCE — MODELED
+       ====================================================== */
     dengue_incidence: {
         id: "dengue_incidence",
         label: "Dengue incidence",
@@ -26,11 +35,14 @@ export const indicatorRegistry: Record<string, IndicatorMeta> = {
         mockRange: [100, 5000],
         availableYears: [1990, 2019],
 
-        // 🟠 MODELED
+        // IHME GBD = modeled epidemiological estimates
         dataStatus: "modeled",
-        source: "IHME – Global Burden of Disease (GBD)",
+        source: "Institute for Health Metrics and Evaluation (IHME), Global Burden of Disease (GBD)",
     },
 
+    /* ======================================================
+       🟢 LIFE EXPECTANCY — OBSERVED
+       ====================================================== */
     life_expectancy: {
         id: "life_expectancy",
         label: "Life expectancy",
@@ -41,11 +53,14 @@ export const indicatorRegistry: Record<string, IndicatorMeta> = {
         mockRange: [40, 85],
         availableYears: [1950, 2023],
 
-        // 🟢 OBSERVED
+        // UN demographic observations
         dataStatus: "observed",
-        source: "United Nations via Our World in Data",
+        source: "United Nations, via Our World in Data",
     },
 
+    /* ======================================================
+       🟡 HIV PREVALENCE — SIMULATED (TEMPORARY)
+       ====================================================== */
     hiv_prevalence: {
         id: "hiv_prevalence",
         label: "HIV prevalence",
@@ -56,11 +71,14 @@ export const indicatorRegistry: Record<string, IndicatorMeta> = {
         mockRange: [0.1, 15],
         availableYears: [1990, 2020],
 
-        // 🟡 SIMULATED (for now)
+        // Placeholder until ingestion pipeline is added
         dataStatus: "simulated",
-        source: "Simulated (Mock Data)",
+        source: "Internal simulation (no live ingestion yet)",
     },
 
+    /* ======================================================
+       🟡 TB MORTALITY — SIMULATED (BLOCKED SOURCE)
+       ====================================================== */
     tb_mortality: {
         id: "tb_mortality",
         label: "TB mortality",
@@ -71,12 +89,15 @@ export const indicatorRegistry: Record<string, IndicatorMeta> = {
         mockRange: [5, 50],
         availableYears: [2000, 2021],
 
-        // 🟡 SIMULATED
+        // OWID endpoint exists but CSV is non-redistributable (403)
         dataStatus: "simulated",
-        source: "Simulated (Mock Data)",
+        source: "Simulated (OWID source non-redistributable)",
     },
 };
 
+/* ======================================================
+   SAFE ACCESSOR
+====================================================== */
 export const getIndicatorMeta = (id: string | null): IndicatorMeta | null => {
     if (!id) return null;
     return indicatorRegistry[id] ?? null;
