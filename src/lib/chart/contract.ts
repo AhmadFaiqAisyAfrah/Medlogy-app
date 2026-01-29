@@ -31,8 +31,8 @@ export interface ChartSeries {
      */
     unit?: string;
 
-    /** Origin of the data */
-    source: "OWID" | "MOCK";
+    /** Origin of the data (OWID, IHME, WHO, MOCK, etc.) */
+    source: string;
 
     /** 
      * The actual time-series data. 

@@ -1,0 +1,145 @@
+{
+    "indicator": "dengue_incidence",
+    "region": "Global",
+    "dataStatus": "modeled",
+    "source": "IHME – Global Burden of Disease (GBD)",
+    "unit": "cases per 100k",
+    "data": [
+        {
+            "year": 1990,
+            "value": 54.9386
+        },
+        {
+            "year": 1991,
+            "value": 54.7786
+        },
+        {
+            "year": 1992,
+            "value": 47.8677
+        },
+        {
+            "year": 1993,
+            "value": 51.3006
+        },
+        {
+            "year": 1994,
+            "value": 52.3291
+        },
+        {
+            "year": 1995,
+            "value": 70.0534
+        },
+        {
+            "year": 1996,
+            "value": 59.7939
+        },
+        {
+            "year": 1997,
+            "value": 97.5023
+        },
+        {
+            "year": 1998,
+            "value": 168.3353
+        },
+        {
+            "year": 1999,
+            "value": 54.7197
+        },
+        {
+            "year": 2000,
+            "value": 60.8820
+        },
+        {
+            "year": 2001,
+            "value": 120.2666
+        },
+        {
+            "year": 2002,
+            "value": 161.9929
+        },
+        {
+            "year": 2003,
+            "value": 72.1839
+        },
+        {
+            "year": 2004,
+            "value": 106.8354
+        },
+        {
+            "year": 2005,
+            "value": 82.2141
+        },
+        {
+            "year": 2006,
+            "value": 77.6209
+        },
+        {
+            "year": 2007,
+            "value": 106.9879
+        },
+        {
+            "year": 2008,
+            "value": 130.9613
+        },
+        {
+            "year": 2009,
+            "value": 145.1984
+        },
+        {
+            "year": 2010,
+            "value": 227.2772
+        },
+        {
+            "year": 2011,
+            "value": 230.1934
+        },
+        {
+            "year": 2012,
+            "value": 180.1027
+        },
+        {
+            "year": 2013,
+            "value": 290.4687
+        },
+        {
+            "year": 2014,
+            "value": 167.8073
+        },
+        {
+            "year": 2015,
+            "value": 257.9948
+        },
+        {
+            "year": 2016,
+            "value": 270.8713
+        },
+        {
+            "year": 2017,
+            "value": 160.8474
+        },
+        {
+            "year": 2018,
+            "value": 120.8814
+        },
+        {
+            "year": 2019,
+            "value": 393.6069
+        },
+        {
+            "year": 2020,
+            "value": 236.7914
+        },
+        {
+            "year": 2021,
+            "value": 160.1172
+        },
+        {
+            "year": 2022,
+            "value": 294.5235
+        },
+        {
+            "year": 2023,
+            "value": 464.6998
+        }
+    ]
+}

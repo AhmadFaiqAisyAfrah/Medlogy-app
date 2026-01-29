@@ -1,42 +1,17 @@
 import { useEffect, useRef, useState } from "react";
 import { ChartSeries } from "@/lib/chart/contract";
 import { ChartState } from "@/components/chart/chart.types";
-import { getOwidSeries } from "@/lib/data/owid/adapter";
 
-/* -----------------------------------------
-   Helper: Slice data by selected timeframe
------------------------------------------- */
-function sliceByTimeframe(
-    series: ChartSeries[],
-    start: number | null,
-    end: number | null
-): ChartSeries[] {
-    if (!start || !end) return series;
-
-    return series.map(s => ({
-        ...s,
-        data: s.data.filter(p => {
-            const year = Number(p.date.slice(0, 4));
-            return year >= start && year <= end;
-        }),
-    }));
-}
-
-/* -----------------------------------------
-   Hook
------------------------------------------- */
 export function useOwidData(state: ChartState) {
     const [data, setData] = useState<ChartSeries[]>([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
-    // Prevent race conditions on fast switching
     const requestIdRef = useRef(0);
 
     useEffect(() => {
         const { primary, comparisons, timeRange } = state;
 
-        /* ---------- Guard awal ---------- */
         if (!primary.indicator || !primary.region) {
             setData([]);
             setError(null);
@@ -44,65 +19,52 @@ export function useOwidData(state: ChartState) {
             return;
         }
 
+        const fetchSeries = async (indicator: string, region: string) => {
+            const params = new URLSearchParams({
+                indicator,
+                region,
+            });
+
+            if (timeRange.startYear) params.append("start", timeRange.startYear.toString());
+            if (timeRange.endYear) params.append("end", timeRange.endYear.toString());
+
+            const res = await fetch(`/api/chart/data?${params.toString()}`);
+            if (!res.ok) {
+                const err = await res.json();
+                throw new Error(err.error || `Failed to fetch ${indicator}`);
+            }
+            return await res.json() as ChartSeries;
+        };
+
         const fetchAll = async () => {
             const currentId = ++requestIdRef.current;
             setLoading(true);
             setError(null);
 
             try {
-                const indicator = primary.indicator;
-                const region = primary.region;
-
-                if (!indicator || !region) return;
-
-                /* ---------- Primary ---------- */
-                const primaryResult = await getOwidSeries(indicator, region);
+                // 1. Fetch Primary
+                const primarySeries = await fetchSeries(primary.indicator!, primary.region!);
 
                 if (currentId !== requestIdRef.current) return;
 
-                if (primaryResult.status === "error") {
-                    setError(primaryResult.message);
-                    return;
-                }
-
-                // 🔑 SAFE: ok & mock both have `series`
-                const collected: ChartSeries[] = [];
-                if ("series" in primaryResult) {
-                    collected.push(primaryResult.series);
-                }
-
-                /* ---------- Comparisons ---------- */
-                const comparisonPromises = comparisons
-                    .filter(c => c.indicator && c.region)
-                    .map(c =>
-                        getOwidSeries(
-                            c.indicator as string,
-                            c.region as string
-                        )
-                    );
+                // 2. Fetch Comparisons
+                const validComparisons = comparisons.filter(c => c.indicator && c.region);
+                const comparisonPromises = validComparisons.map(c =>
+                    fetchSeries(c.indicator!, c.region!)
+                );
 
                 const comparisonResults = await Promise.all(comparisonPromises);
 
                 if (currentId !== requestIdRef.current) return;
 
-                comparisonResults.forEach(res => {
-                    // 🔑 CRITICAL FIX (TypeScript-safe)
-                    if ("series" in res) {
-                        collected.push(res.series);
-                    }
-                });
+                setData([primarySeries, ...comparisonResults]);
 
-                /* ---------- Timeframe slicing ---------- */
-                const sliced = sliceByTimeframe(
-                    collected,
-                    timeRange.startYear,
-                    timeRange.endYear
-                );
-
-                setData(sliced);
             } catch (err: any) {
                 if (currentId === requestIdRef.current) {
-                    setError(err?.message || "Unknown error occurred");
+                    console.error("API Fetch Error:", err);
+                    setError(err.message || "Failed to load data");
+                    // On error, we might want to clear data or show empty state
+                    setData([]);
                 }
             } finally {
                 if (currentId === requestIdRef.current) {

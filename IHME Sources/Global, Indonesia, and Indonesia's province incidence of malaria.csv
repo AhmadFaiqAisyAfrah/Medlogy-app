@@ -1,0 +1,1225 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,1990,2126.97226442684,4809.08300641147,678.31175063873
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1990,1134.31544629367,6589.6287339793,43.14889061057
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,1990,63340.38880884927,240820.44013701336,4592.98824356436
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1990,19132.70808041168,78162.96812454554,2310.1947738346803
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,1990,6225.24165735301,26649.045415258188,424.93405147682
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1990,2022.6311314542202,10373.065073679021,112.86956926513
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,1990,9495.45324887116,63817.15180909631,131.39677109744002
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1990,735.15005558164,3615.06312946236,15.23065831822
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1990,3214.35801772575,16442.431176921447,75.95241498122
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,1990,982.53377251705,3946.77586455984,101.17099105903
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,1990,6514.98879159737,34082.6198235243,157.49888591601
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,1990,163.11013112908,922.43279556428,1.4946204935
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1990,3378.4533673167703,25295.73228744094,5.63761922531
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1991,3237.18386973497,21053.303514052877,16.95823850261
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1990,1599.7586536088002,7087.95391910768,171.77963781676002
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,1991,967.86719647487,5540.17451682787,32.33273838001
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,1990,74.93725903414,483.21778399018996,1.29862172494
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1990,13040.03435793587,48284.000148338804,1245.03009827405
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,1990,179.62415144767002,1296.46887826286,0.8423185449399999
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1990,3136.7281204255296,19434.563501023968,62.931765270220005
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1990,10825.73384543623,49015.60196295444,878.05028081764
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1991,715.48508980889,4304.3239897657795,17.82576113971
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,1991,3941.63836213879,4681.99298232554,3352.9835280215802
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,1990,3428.0777737119197,14101.61319185374,392.27358710302
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1990,6010.91597598168,44023.77158243804,49.65427578171
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,1990,67684.73340220931,307971.4664993995,6601.7749480211705
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1991,585.52774619675,3234.9206296040898,16.67012280294
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,1990,2261.79940012852,9022.108163209381,240.0728666769
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,1992,3904.3832552100403,4568.365913439669,3300.90039202941
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,1991,69.03567354588,427.97882388972005,1.13184849384
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1991,1339.67568479148,5122.19552562449,135.75603583688
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,1991,135.45493902036998,850.38413742558,1.25600828191
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1990,5998.743669590051,30378.358548913748,618.47602760884
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1990,744.5434069036501,4241.88006486305,19.17179268136
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,1991,842.37827664335,4232.79747665597,44.498128155479996
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,1991,6033.87973096934,33324.36415254369,182.39720137659
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1992,2705.5064075413597,16680.50644986222,15.43646517836
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1990,2592.02580149407,12862.97055149748,145.16746546891
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1990,4541.70979913476,18937.039515710218,350.64336119231996
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,1991,5507.5008383567,31162.9713116647,221.50317411976
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1991,2175.61605920083,12569.56426513761,46.677721525820004
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,1990,102.3437492745,868.2258562171801,0.0165455566
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,1993,109.42461049103999,748.14560620363,0.8300812877599999
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,1991,162.55507736005,789.5309708481,0.00999465213
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1991,4565.4120580757,22118.00404311235,231.06084313065
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1991,11724.68769536316,53045.514934355844,605.65597129319
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,1991,67.21695382842,414.83018198547995,0.9034576561
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1992,558.65011825748,3530.2592437182902,11.91470107956
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1992,1134.70175088513,4433.43507117419,118.82643803455
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,1992,846.77461179946,4376.15422749609,30.63197824322
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,1991,466.41547573271,2642.4805173640502,12.16390017085
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,1993,3889.64177897183,4600.64745123834,3351.39053296616
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,1991,3050.56397758425,11432.38524757447,328.91558722858997
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,1992,137.18387055488998,895.0989597317899,1.0503183390600002
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,1993,570.76210055713,4261.73823937426,2.5138289284499997
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,1991,4067.33973534932,26077.599705132187,37.20589439072
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1991,3336.07774334669,18260.478532847348,127.97613723238999
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1993,1119.25984362729,4970.91360503958,77.7661752268
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,1991,141.31188039995,956.9004572032301,0.48207874101000003
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1991,10496.463477803029,57661.97532729587,365.73380212876003
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,1993,54.972792758720004,351.23995541069,0.67485675004
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1993,2304.2094963167297,16230.49717292404,13.48743598772
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,1993,2619.37161453296,17843.422827260012,25.00412742991
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1992,623.3308540540801,3497.10014318118,16.94409598135
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,1993,53.99591085617,321.76205177964,0.99756676028
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,1991,899.9961391231701,5496.23327893256,2.72184571727
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,1990,3960.1133393113496,4690.68446240662,3351.9597333012
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,1992,59.84425278655,334.06652856018997,0.92978477006
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,1992,760.19882787658,3379.37589520929,41.869853210150005
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,1993,730.46098629087,4051.81857366967,27.38285279464
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1991,1839.6328639333599,8634.60110658582,61.16850617456
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1991,648.3532680933599,3490.32478328702,15.87311191008
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,1994,837.51492863283,5150.12678872137,26.30967361455
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1994,997.4017977500299,4987.94165902406,67.99989732424
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,1993,359.3023656381,2092.9903245567602,7.241709241900001
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,1992,58.165588537219996,394.00724919723,0.86253382753
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,1994,53.485854243409996,350.93329100442,0.86319008463
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1992,1667.5348399959498,9273.423346997479,40.94611894551
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,1994,3884.7075512815595,4504.20774656037,3316.20576465571
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,1992,5215.47111830385,24364.150005339798,154.24779590927
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1992,1595.55563818139,7840.702260265681,67.75933203395999
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,1992,431.91801070868996,2503.61984408476,8.58935037596
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1993,532.0166672412299,3199.0647901932903,19.03699644772
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,1995,3893.31407773148,4501.31800211633,3349.00265133382
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1992,10735.36271578786,58719.377598912535,574.11503160092
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,1991,55533.225434655265,216345.5722260974,4752.93574401564
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,1994,349.54240799885,2019.01974819923,7.4898298603399995
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1994,564.1702422249,3450.86767183477,13.293308466100001
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1994,1932.2154256530898,11862.06971206842,9.52586130444
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,1993,4059.42634835175,23661.759759515142,143.54188878865
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,1992,809.8459907387299,5914.29790793808,2.80767358968
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1993,1459.17671828862,7448.162540253141,71.13450025178001
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1994,481.44784390989,3182.78259154725,5.26082812423
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,1992,3812.20630718255,26720.76861597527,25.3513095729
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1993,1534.1278796602799,9401.1753324203,38.17077928049
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1993,451.8138627969,2799.77004147257,12.03070677346
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,1994,92.5401356609,578.5216346669,0.8153120482599999
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,1993,127.81826960792,766.29955115629,0.71157548518
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,1994,494.66293544845996,3123.61026607536,1.56879200012
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1993,8464.53514985418,36445.629371997864,561.38149309523
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,1994,4201.76682277482,26238.579274999953,119.34043336487
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1991,2542.71105083151,17474.040876352108,10.66871501944
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1994,1564.44811495499,8674.77296606769,37.91086212403
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1991,4996.128864469681,40146.184470975,50.628891503030005
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,1995,85.17547078622,596.93148769499,0.89195780379
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,1995,34953.44448314944,147712.05857555408,1858.69930605161
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1995,1965.30716069236,12115.80581877828,8.6716884021
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1994,8143.04741483028,37749.201548066034,573.6359240235199
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,1992,4992.9891186912,29804.84322503411,115.29425246465999
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,1995,703.07050636107,3400.65820238646,23.69248659011
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,1992,2508.38238757921,11582.50639619612,181.0309201146
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,1995,47.08186050045,289.81905461839,0.7548262045499999
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1992,3960.2263173850597,27050.72940028994,46.415110284069996
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1994,4090.6930981617697,29962.22924101125,39.860905714599994
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,1994,2947.65094452227,23727.53042178672,24.80806953019
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1995,565.68105589557,2985.0881557235202,13.997481083119999
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,1995,349.67819562798,1836.7159113411299,6.02237651453
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,1992,132.94650584692,1120.49414538892,0.6439997028
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1995,2290.81474681816,17048.48480366431,10.86737955814
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,1990,1180.7969037273901,6531.6375589673,54.00183737031
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,1991,1935.4086859875001,4633.24740810254,638.17936908721
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1990,814.7723215302801,3515.85943640694,64.16152878604
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1994,450.07142707910003,2416.0899893432,10.98790524991
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,1993,2196.81151393455,9345.361721201729,180.29048452135999
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1993,4210.05678950628,34667.00663550504,37.93822611247
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1995,1297.19507756307,7692.175666097261,28.35343996738
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,1990,72.50498438230001,437.26454358451997,1.33513856355
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,1994,69.83300287174,393.09503003995,0.01138502129
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,1994,45.83028817229,287.9133886071,0.74229565477
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,1993,682.47641017556,3525.9183866783105,43.83616870388
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1992,8201.78729079871,40071.28769080383,313.9119363385
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,1994,2013.80089156563,8827.46234196064,150.99290576176
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,1995,726.7543718243099,5676.59814776739,1.6444687594
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1992,597.33754354668,3298.8981494945597,12.938569807230001
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1992,4058.93574388002,20335.27539193436,203.22308651088
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,1995,38.870695456440004,252.73550461147,0.71836867238
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1993,2414.57134297972,17053.811845463228,9.168826541440001
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1995,357.92374703884,1984.9232022609901,9.32268071983
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1994,7239.437624055529,42472.02117779169,255.21159983347
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1993,7900.4290268009,47089.12659608474,276.29757676557
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,1995,2601.70341471133,15882.10307842606,21.833407857180003
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,1996,3935.63323669368,4616.13005657715,3390.27293267022
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1993,3609.7948765247897,17510.08247394861,226.80082365576
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1993,497.61416189397,3157.18646175086,5.01566535081
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1992,3013.01835089265,21612.845147581862,8.93780716803
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,1995,3127.51238542825,14854.33558379957,121.9314611467
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1995,946.31076522954,4781.35419684999,49.29713738504999
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,1994,705.21729825359,3431.8100281733705,36.116702406470004
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,1992,46760.00341487339,170307.0859561349,3698.6362851449803
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1992,3330.11176486069,18492.62544996889,116.52956889072
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1991,991.1256832670599,6537.1389263324,16.556974039729997
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1990,2140.89892686554,10462.27902717289,115.64074967353999
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,1991,61532.869853345575,322437.70442301576,1437.87443360774
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1994,1421.4883141181,7313.41955545332,56.05600880463
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1994,3248.29363118379,18113.600470929512,169.43989690102
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,1992,106.42025653081001,673.11408100617,0.01302000142
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,1993,5037.645206821359,32522.45051178585,137.17344418401998
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,1995,115.02993382563999,1033.42274063269,0.46695773905
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,1994,162.04582376118,1308.19424887718,0.64534520893
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1995,1271.71639721656,6177.9577204302595,48.15213767774
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,1996,698.26138345686,3549.3889288818305,25.52172271817
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1996,1060.6002505308,5146.6299759967105,26.862543689520002
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,1993,40876.60118145705,185819.53679734896,2447.5364677884
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,1996,295.78995273042,1847.2796581850698,7.1278114748000005
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,1995,624.76610004843,3284.5109640977403,29.55756391627
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1991,16646.35319648424,65201.993399092884,1065.9527412646898
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,1992,1724.33193741445,4267.685884475541,661.08430940318
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,1994,40958.23498482495,182581.70591836824,1754.98167713257
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,1992,55386.56041406292,227536.4984646713,1393.1993145494898
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1993,2830.25817800181,15943.07691120018,95.13419221826
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,1993,85.03307175549999,647.59034959103,0.01075696848
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1995,8833.294449769211,42464.56177595173,534.39818141127
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1994,2714.2754634416,17600.96628547551,13.010887761740001
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,1994,4044.94218199467,23387.41397899093,95.15599883229
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,1996,2559.21486907419,17102.52541739911,21.89214319911
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,1996,520.58522531094,3059.62551895511,1.7083326995700001
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,1995,1931.1128442180602,8079.287378683141,150.31915619744
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,1995,3917.5729351893597,21609.70492901844,96.67787875862
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,1996,42.47351532539,266.52417184195,0.68393970358
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1994,2903.01513651788,18157.81672766777,127.81460317813
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1995,3124.30605344192,19231.93309485166,21.6257906138
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1995,7096.769215003949,35311.228661922425,221.86952432101003
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1995,464.21027730777,2999.76604612149,5.09776565018
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,1990,483.21972171216004,2611.30523312474,12.21996043827
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1996,2057.97246068991,13590.91759738832,13.04944477825
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1996,520.46142607475,2988.84877718538,12.23532696533
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1995,3117.8881288509897,14882.62973068045,161.38051678199
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,1997,3991.9346159038605,4688.22195507716,3459.62230304667
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1996,917.37001532659,4277.82299961433,58.542975509339996
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1997,1759.6431225770498,12264.82412640781,12.36882370221
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,1996,89.76016835501001,611.4575865777899,1.00538436614
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,1996,3179.25029615472,16540.824012200537,130.00448966884
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,1995,58.510968406420005,379.81523358872,0.01898486442
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1996,284.57650987507,1555.99296953406,8.064055231889999
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1996,1255.2920156087798,6457.21415254472,68.38242121005
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1995,3192.08847394952,17729.18646970976,98.29244095212
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1991,2168.0413987818397,17379.46643192086,5.6137948056299996
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,1996,1890.5912166779501,9620.05641413314,135.72837107130002
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1996,7872.94462203864,37512.55400555474,505.12932205134
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1997,355.25329356241997,2098.3869539684197,6.66502459129
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1996,2505.59896911092,16395.03322970894,37.173069946889996
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,1991,10111.47902617326,74873.97278720418,81.48101471791
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,1996,36.271543093839995,216.03307001065,0.81146032898
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1996,399.18981606784996,3032.6518051162598,5.17088535306
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,1996,646.9558420107501,3115.89625521865,30.517019208830003
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1996,5448.98509038095,27516.393296914233,239.32555742246998
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,1997,587.81433474483,2618.79378538222,29.946436780920003
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1996,2739.0738784346,13510.24288298955,188.31135278538
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,1997,17.529855125730002,64.41380604253,2.08360078848
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1997,498.53103095815,2438.38753387339,14.06020831514
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,1992,8749.70480017189,65845.08339391858,72.90280007249
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1992,14934.713729229728,56383.82218970166,1172.6315282834098
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,1996,131.49640092627,1180.6650842142399,0.48170388649999996
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,1996,49.98583406385,464.12247204617,0.01100023961
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,1997,17.15826179131,71.86187927777,2.0420629412499998
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1997,902.5054496317301,3944.5472440412905,53.02950762497
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,1997,783.12468964846,4710.9459329962,25.134249949730002
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1996,2694.08621365545,13612.99824993113,97.98239611275999
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,1996,4108.05004974037,25158.34797416107,89.98605752726
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,1996,33509.76853503398,136850.10374845995,1947.7074694151102
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,1990,836.3954953539801,3700.60127272138,51.10078046967
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1992,798.04353413842,5330.36202402719,12.303528974839999
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,1997,4072.9225584583,24507.305490326507,95.43869109665
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1997,1130.9807245204502,5986.6012693331295,29.74932009773
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,1997,99.97012587568,331.79852757168,12.65765832292
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1997,7480.06795035638,34875.26520801467,392.40568134251004
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,1997,35.629914825090005,236.94082789026,0.67529021763
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1996,2534.8159130455,19038.8147000291,10.078379813029999
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1997,1342.49772317058,6844.809928565291,58.022883803069995
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,1997,3396.27547702748,18125.66759759682,109.77088400856
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,1990,1026.56114100799,6879.47301623752,4.03997840144
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,1997,2424.23829795286,17450.294350622302,26.403484658550003
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,1998,4026.4585501040096,4705.30272607631,3495.63500580706
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,1997,168.72922747425,606.3560570756699,21.047483234039998
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1997,6163.22106199005,30930.827569812667,195.83743647544
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,1997,15.90875425834,66.62945197601,1.55389240873
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,1997,1705.47491858518,7099.41906691417,144.28493100657002
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1997,362.80938390853004,2651.0041327040703,3.88366343752
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1997,3111.46866802379,21939.62851807478,25.42426935739
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1997,2793.58136658255,13049.15628785452,157.1205415366
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1997,2225.85720201474,17741.44278593429,11.7232826309
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,1997,35565.97206846026,164385.51794848888,1559.65450752777
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1998,1881.52199192715,12159.06090508129,10.55812527767
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,1998,12.58113814929,41.44587530251,1.9761232187200002
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1998,5529.523185384,27447.42937057849,181.00163973601
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1997,2904.45208055066,14512.736479410609,97.12047142838
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,1998,3976.8104734984504,23555.93748952117,68.14061699340999
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1991,2365.03941217148,10355.39894255398,129.41502342673
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,1998,29218.38509111601,129001.02818214301,1803.30442643303
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1998,314.86404094651,1813.6825079953098,6.79563991141
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,1991,2072.1008820839397,9469.70494608506,105.0698444926
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,1992,1865.0679480133301,9080.263722141859,90.84525953904
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1998,2105.12415481077,17106.80551750815,8.50346279525
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1992,1792.9487203690999,15076.53856557515,4.5506502925
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,1998,11.63824398921,40.28522271969,1.73716957101
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,1998,519.4717670231399,2567.37570776314,28.86185965603
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,1998,33.34170900085,198.35312020861002,0.55308285286
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1998,898.58322238375,4586.45700504321,44.6375193408
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,1993,1512.18737665298,3525.1368854797397,514.46485813612
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,1998,682.3750467899799,3561.8441694226503,19.06724438771
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1998,6623.331899706431,31118.79165373868,359.40076870101996
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1998,1098.73669163138,5759.46353935447,50.874397635360005
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,1998,3149.13125754068,15963.45964382681,91.30398738311
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1998,485.73982129804006,2678.17648206552,13.579364570990002
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,1999,8.62299746861,27.90363163647,1.2937450112
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1999,1939.29426605131,13441.780483688179,12.429148625429999
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1993,13236.056761026472,54171.363097747206,939.1699205701201
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,1993,46090.203877354965,195545.62877779448,1189.3412020215098
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1993,848.9913403249,5651.30052021527,12.908383222209999
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1999,736.59969640543,3335.83585526912,50.203963946070004
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1998,2741.4581813416403,19282.02876145939,26.06896901323
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,1998,1489.86749737367,6101.80570193837,115.0916093064
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1999,296.99878837219,1750.86964651251,6.00578140952
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,1999,34.74014384255,205.98018639639,0.58108633181
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,1998,26.56423922157,86.98958067219,4.4680453329
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1998,1133.89071382697,7139.296830826369,24.25328332374
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1999,6486.935753894919,30728.48257492752,359.3536096658
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1998,2367.02565859846,11235.93543052722,127.19934784341
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1998,285.81066510479997,1898.3540764279699,2.88949531499
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,1999,8.01676888545,25.00703696496,1.32488423006
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,1998,194.82328095731,599.42375628713,32.252040825710004
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1992,2011.40787055333,9224.20595379974,144.93177416681002
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,1999,523.83856349018,2568.06371819915,28.45635188258
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1998,2720.39625495765,14106.04961674273,78.38056233120001
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,1998,2120.9493502200303,14061.80023318019,21.78856041637
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,1999,5538.77161604924,27216.36047865248,160.22471950125
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1999,1880.1164771784802,12254.42032460319,11.25636583934
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,1998,1103.81482338484,3416.6897043150902,184.15996925527
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,1999,4019.84328978561,25755.3864280922,84.19824460669
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,1994,1432.6741198991401,3475.3073800203197,557.36378745276
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,1999,28203.44442853807,129340.16097172604,1718.2868749255
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,1993,7511.10408351581,44827.46063473476,57.69945950265
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1993,1899.0940639702,16287.9514981424,3.6753428696699997
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2000,1121.05138571906,7001.187067259821,8.314713283009999
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,1999,4029.7752772030203,4651.69076916403,3495.2743321974103
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,1999,3151.49721860034,18205.49063551392,103.92957479957
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2000,18.65627342557,47.39660009594,3.61869599354
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2000,556.0912742476,2607.91382703187,37.46117263786
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1999,1089.84258923134,5470.87821761489,41.21532854595
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,1999,1523.20302199726,6317.313451726431,128.37569810205
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2000,165.85277196482002,408.24271400103,31.74220625515
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1999,2739.36169663231,17376.92612330832,22.50433676518
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2000,4632.08824103062,18281.15636916614,325.97436923189
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2000,21.72065167236,133.54839463305998,0.47546402686
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,1994,41149.82035978466,174948.79726253904,1180.08618211674
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1994,748.29416975379,3987.41355919119,14.477225992589998
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1999,312.25156103637,2220.13421796654,4.2053097815700005
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1994,12805.64268488855,48809.65084455177,1001.74316212581
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,1993,1640.6371462220602,8170.996711893271,87.56712452711001
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1999,2338.92914536131,11665.52244917016,113.31699264665
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2000,3768.84307867638,17367.66701241819,152.26480214092
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2000,379.02967679662,1763.7052548307602,22.711226596710002
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,1999,7.750231578689999,25.37917789092,1.2277901875900001
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2000,18.55535445863,46.35739170646,3.76617525715
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,1999,590.5333876654801,3237.9755762978502,20.93101270543
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1999,417.36524064738,2594.78228476031,12.59245645528
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,1999,166.62682777489002,513.4010632833499,26.31496956152
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2000,19812.49351444919,75570.7418294261,1235.38992409535
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2000,2383.04519272294,12606.214208780519,71.92700427938
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1999,2440.80197192281,12474.53180374662,93.85746048346
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,1999,1031.0703565234598,6031.58491366078,23.250665061630002
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2000,1360.81368704777,9320.08888997207,9.8772334338
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1993,1783.4503149045,7761.23030576618,118.37310643634999
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,1999,1071.6841293719199,3347.2587959161497,178.70693801980002
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,1999,2124.34533018597,15476.46277723496,17.15091414373
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2000,3981.41578294022,4585.47741527814,3465.6087158388295
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2000,762.90150102597,3596.1533084328,46.8836113431
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2000,2063.54236199633,10104.18275715392,93.89442027128
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2001,1162.22839247264,7216.319852478429,8.67196457248
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2001,338.14139359449,1296.28925767593,26.33796555571
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2000,2018.9610981800301,13202.69385227684,17.80987762271
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2001,22.77003196629,139.36164567200998,0.40950521071999996
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2001,545.05028918676,2093.8999800789798,44.36989815522
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,1994,6896.185095539569,49657.9602867835,77.46696472882
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2000,988.36457673501,3641.12875606885,81.44457491875
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1994,1687.0355350243,14481.17528570359,3.28064428769
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2001,212.74995581278003,1103.57971623197,7.00532385606
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2001,2524.51425100895,14340.638771235539,71.52455431911001
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2000,1598.7433710717,6431.715579928959,106.94816406166001
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2000,200.31570735666,1110.37124338758,3.22131606576
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2001,9.42231161435,24.21135428257,2.2866616034500002
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,1995,1386.70767374441,3740.4873647507497,533.48698494193
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2000,1628.0581922412,8233.825569887871,72.90713560818
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2001,4499.30251043339,20483.30478972584,344.66164094492
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2001,30.23561357776,74.36161349851001,6.692158786059999
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2000,310.79828461259,1761.47949825684,9.196242869379999
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2000,427.10556038587004,2170.4013946703503,18.32445621768
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2000,9.24519275466,23.22467472594,1.79631819981
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2000,699.19566854881,3952.69655285401,17.80325755015
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,1995,39892.050777118035,154980.86316851154,1169.1977856528601
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,1994,1586.57197611443,7458.1172792772695,89.46670856592
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1995,12613.26225489945,47689.77449271961,906.3428487172899
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1994,1869.9812133433102,8664.04321598457,85.88876465656
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2000,1272.11064651833,7847.90943469002,21.11424407333
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2001,2160.81876174802,10410.55472510699,92.65402960632
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2001,715.7872247952799,2913.39785550134,50.04197868725
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2001,4063.6104154055897,4747.74919439304,3548.43882868994
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1995,736.68344529546,5071.358380823221,12.22040241578
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2001,1312.0716165285,9657.60297481608,9.834688405309999
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2001,3508.1295472501897,17034.301928698438,184.83506216829
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2001,1032.28515995918,3940.8842081177004,107.85835373527
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2000,3.7718858811100002,9.28268633464,0.73505168042
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2001,1847.01819350377,10595.08863358143,16.66906986795
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1995,1828.86152400685,13766.826440964338,3.41712408446
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2001,184.30880072428,1141.48730362869,3.20171166734
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2000,174.38836873976,425.39143955147,34.523604579419995
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2001,1730.4572924413699,7038.85783876741,127.71051238929
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2001,19488.17201851874,81723.95867219135,1211.57493482016
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,1995,7297.565472668701,45803.06076016945,61.72485371309
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2001,0.9629631183999999,2.40075609901,0.21589303929999998
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2000,1256.68435219972,3120.85055513077,248.18245021788
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2001,1607.0325864259798,8337.39372973452,76.96861074279
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1995,1764.2319415488098,8336.19235992734,107.18834894275001
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,1995,1553.72618660086,8346.87837406696,83.53646171244999
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2001,1.84813602073,4.63408807338,0.42424935581
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2001,461.46184799712,2120.43678512235,19.93006879471
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2002,1728.02496723947,8596.310915276561,79.54585725523
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2002,29.08628283128,215.44998614199997,0.00950644036
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2002,1991.6511341748499,10405.54229997015,98.06871902597999
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2001,178.40164059833998,897.11804204565,5.06587684269
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2002,966.1677976495199,3785.1928079602603,89.93236455627
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2002,801.32309261566,3776.87708608679,47.80035103932
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2002,193.83040710394,1138.46773382564,2.6043679061400002
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2002,1706.77768633128,11301.41640854231,21.53999344403
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2001,790.5073215953801,2010.17951648074,189.51378012845998
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,1996,36940.015500091,175130.8471506233,1121.10577535362
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2002,1613.47200246992,7345.21414761237,109.83886606198
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1996,602.29500162998,3931.3889477219805,9.70965568818
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1996,12321.25934327715,46438.59072330381,1135.4746869002201
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2001,316.70824930871004,1604.06869401731,11.564578410120001
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2002,4015.3467658358804,4666.33181790184,3477.68355840947
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,1996,1310.77757293222,2915.33320154059,530.20046106253
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2001,706.1386656189201,3686.69032483959,22.43644890413
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,1997,1258.5788253683302,2866.65134735356,546.82143464886
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,1996,6478.966043647701,40159.682813755484,53.97286740628
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2002,1019.33901959796,6306.93845286065,7.0346994489700005
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2003,1810.9585577259402,8818.15917338474,75.86775987592
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2001,1219.49673277896,7616.116346657691,17.0412408705
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1996,1430.93346950351,10687.40543131095,2.70497433472
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2003,546.60386000173,2484.7695559324898,38.169213229890005
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2002,24.56237119701,137.89333238931,0.53282842507
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2002,459.42856514101004,2362.58514073854,18.21404478702
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2002,309.40058635835004,1564.12980499642,12.9018703642
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2002,178.68109242345,1049.7780130936198,5.41587994845
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2003,810.9028559886201,3550.93817820268,83.3393153645
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2002,621.86069872362,3520.0785172495503,17.12776418526
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2003,1320.25704515288,8663.14203965864,20.27713305556
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2003,817.66561607352,5179.34639369687,8.41598933235
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2003,144.54540118863,798.8405415370701,2.30068623673
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2003,1278.78761934503,5532.62274515631,95.15371819196
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,1997,34349.87278426735,132436.9697910513,1196.26324136729
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2002,287.18598013461,1944.83857160449,1.64300247595
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2002,1287.71870709542,7952.794514655489,13.79201193519
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2003,4095.91064643932,4804.4600431645695,3556.0502253360405
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2003,1231.0758152768599,6268.96683823492,58.87576719914
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2003,15.53102824764,104.17051769329998,0.00693773773
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1997,679.39862235759,4092.1773342113497,11.023343382850001
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1997,12417.30434582275,43631.13187070322,1109.9210987604301
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2002,151.08172472879,372.09401876073,33.86523860297
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2003,436.63681062254,1789.92341518622,35.9259758502
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2003,51.338846841199995,349.47421438414,0.6277906909400001
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,1996,1383.7360664796,6225.57640695579,76.72788319816
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2002,528.00516294057,2015.27539848956,38.34779784279
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2002,60.52502502057,392.66966330178,0.63121197826
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2003,98.31101832035,222.07570057764,24.747499852479997
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1996,1694.73278566334,7936.826969993629,99.21874480789
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2004,1134.9425570384499,1522.81667084582,807.67173067151
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2004,607.73293641492,846.95540811024,425.23983954993
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2003,18.89426991597,107.71760413157999,0.42577261398
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2002,349.82271037937,1525.7039979937201,24.01162041999
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2002,4315.2091396058895,18447.92926390533,344.73425954851
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2003,359.44408528835,1677.46745994011,15.698118862800001
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2003,21.41650385941,115.14301512656,0.46499508912
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2003,255.59776080536002,1170.51097491205,7.75528815623
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2003,3495.34766717374,14052.090027927368,264.39964950316
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,1998,1214.10868974519,2673.28613395927,503.59364043992
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2004,245.31205358852,332.48991438023,170.38046553979
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2004,770.90894637298,2808.83179520254,102.96393327028998
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,1997,7013.89590344259,45567.668601293706,62.09185005824
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2002,21.79988308001,130.15546418314,0.5039345158799999
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2003,145.6806840521,776.32468110244,4.71081650317
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2004,4139.72003617799,4918.19005322629,3613.88164340476
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2004,661.40872991349,890.44570725754,449.78092747324
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2004,139.54224849234998,877.71243548642,2.51225110287
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1997,1561.4173582849098,13738.66650664069,2.507676181
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2003,612.37600919295,3144.1999687200505,17.61231236978
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2004,853.3516065165401,1163.19833739502,589.00379955154
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2003,263.49310861647,1141.1711205188901,19.00274476566
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2002,3783.98789977896,17304.34459467102,146.22268772309
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2004,29.39436799803,155.17966558724,0.00678781022
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2003,293.23072929944,2320.53911345063,1.1280636993000002
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2003,4.97492915746,11.193155142770001,1.22888228034
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2002,2210.75121385308,5385.74821416235,500.16582307984004
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2003,2910.72533107481,14246.19847181663,130.83763115545
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2003,1208.30820306948,7251.09606867847,14.3198816922
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,1997,1508.08370985904,7702.49306384788,72.08666272229
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1997,1817.24477755311,8719.50499569415,96.1002655891
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2002,10.4300931187,25.7701709692,2.267156557
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,1998,34031.11574952957,152262.32630704876,1036.23517002025
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2002,18240.43988040437,69517.36373160251,1103.92066801051
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2004,86.66796355544,119.40202187955,60.86819147567
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2003,2417.34520436314,5511.47684361721,587.07647713884
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2004,320.63543849609005,441.70461308904,219.17254892518
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2004,405.32738318552,560.57451333863,276.23791625497
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2004,435.39549294598,1730.2270675436798,49.45880206303
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2003,1220.67965785602,9702.98810003584,7.569897108419999
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2003,14877.167004679839,54560.910544051854,1243.00658000409
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2002,1129.77951361539,8278.8635694013,8.47688761657
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2004,595.87505464603,801.3817073183001,412.21081643804
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2004,27.86618213684,39.162495001139995,18.72233333959
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2004,377.78199402764,510.18128270601,257.54315971169
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2005,528.27523730752,784.2694396235,257.38642778513
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2005,457.48556633914995,3039.5415705086502,10.36973746264
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2004,4252.090278528311,5865.47512569001,2944.39870665753
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2004,3086.90408568425,4135.635447220589,2167.0526931289
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2004,4.60668339184,6.492073102690001,3.02831801425
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2005,921.4921932681201,1353.92233894768,446.99181021993996
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2004,3228.6883878459003,4376.72516007629,2207.3578555786703
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2004,23.57624589983,32.68448412664,15.55932188872
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2004,602.94709255009,828.4868343978,414.87935040999
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2004,142.85221061957,190.33900901187002,97.40886430175
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2004,15091.3366567719,58776.939419235176,1372.5970976658
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2004,1260.7007756876299,1693.0795525464898,872.4505602362801
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2004,672.3409540746401,918.27306514697,472.88664443669995
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2004,895.24677445437,1205.9196310214,622.60323157419
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,1999,1167.41357499139,2404.4605287741697,490.92401422885996
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2005,38.16495731055,271.5971048379,0.021272565389999998
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2005,2005.62605125558,2985.12815193886,939.47780269728
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2004,681.0645812798,922.19878766218,460.0324604858
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1998,11299.040217814681,45029.735019133346,915.6457434956101
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2005,370.76928401598997,549.32744574214,167.64272335246
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2005,2233.59975917378,3370.18177764453,1084.04210433658
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2005,10.03900648009,14.52866352132,4.7843969605300005
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2005,1.37328846887,3.04732082259,0.422582652
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2005,28.76478341905,42.40585494201,13.52617143077
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2005,1161.15407502134,4737.98178102587,132.76832116735
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1998,543.8731484708501,3249.6667981309497,9.60782463808
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2006,2924.53752023051,3682.74034927534,2297.26184574381
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2006,240.52611589488,309.29128748696996,183.19430355352998
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,1999,545.57558719988,3281.7209159763397,10.21626558815
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,1999,11063.647042828741,41860.03453421159,989.4674969264601
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1998,1589.23781608424,11548.293156273889,2.2859716419200002
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2006,222.25997331342998,282.33253796313,170.43849598418998
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2006,388.79570994898,499.48645976871,293.68860964652004
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2005,1.58083502007,3.06032003938,0.5933946520000001
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,1999,30483.915184792633,130178.84114085052,1028.06476956893
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2005,2949.92918097147,4357.99037763536,1395.62560694828
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2005,14.627863592349998,21.78536550269,7.10988051368
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2005,4047.7119030915496,4789.22137257675,3541.96210125248
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2006,1151.14293729157,1451.22876994495,901.98711463598
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2006,138.22049535234999,671.43493532438,2.05670834514
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2006,284.99994687812,362.10894421411,216.20226349495002
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2006,67.63570555396,86.75829342876,52.29975542411
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2006,1256.86613212456,1603.2167091538902,967.0968813319801
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2006,8522.47779096942,10464.88444792536,6883.49268687917
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,1999,6440.10733683473,44310.0710285796,44.99206073591
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,1998,6707.079428973289,46287.197447352555,48.01917252522
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2006,1556.46880971551,1956.53054598593,1198.34519111913
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2005,1632.88870148097,2408.2502418024396,785.50160700034
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2005,13.990405385390002,21.43320583274,6.4307290294
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2005,179.13171980806,261.41455195995,86.44274643268
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2006,6.5426934618,8.45700624445,4.91892191271
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1998,1540.15092593494,7739.100076926141,93.22540874925
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2006,38.42686824941,49.377402133939995,29.20486388877
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2006,3622.79581717086,4616.91287208035,2769.00951085927
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2005,313.46964895914,461.89469391364,150.47369533637
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2005,19.240596349,29.56929656883,9.2344249945
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2005,36.58764363209,55.23072621758,17.19382413491
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1999,1582.1689814306699,12677.468194826719,2.98002047166
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2005,72.5354951712,110.15221420058,32.725978040790004
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2005,32.67309776216,49.98954808037,15.691766574370002
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2005,39257.35137727343,121986.67333248517,4694.00614330145
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2005,29.65606247852,45.32441157205,14.28633700276
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2005,392.36825953657,573.62128353254,180.59789487832
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2000,802.8546765076001,1012.17893725678,652.9501231451501
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2006,3955.9760894934097,4667.80131533185,3465.60709908234
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,1999,1220.68161100432,5837.22296550305,68.97425408186
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,1998,1295.53537213916,6493.04550726312,64.92236491595
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,1999,1554.98139043963,8190.15338598933,73.06571464308
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2007,2055.38337460547,2696.6622666956,1536.23582636339
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2007,231.8258645945,307.14223264145,174.05436141759
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2000,1082.9682107050899,5014.92492450523,76.39123316985
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2007,981.1324067075701,1309.69845179692,725.08720376931
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2007,165.23351427202002,216.43996115019,124.16973377364
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2006,985.79814845188,1292.8646723525399,743.89872929689
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2005,9296.08245457626,13516.118052600832,4320.48212752134
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2005,923.91334026055,1365.32663820423,444.59260710088
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2000,382.29201113436,2178.95827056483,8.09791939083
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2000,7475.80530645772,23192.28228017299,861.77298305311
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2006,300.53582639732,382.15904883587,232.96673388444998
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2007,714.67455450895,940.92958627917,525.26000986105
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2007,228.53200110090998,1374.27107459739,5.06905706387
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2006,3898.0816806026496,4958.26810248658,3052.18128218215
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2006,418.07895573963,524.35873659061,321.00794727373
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2007,916.62559892564,1184.70711858427,692.3880740151
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2006,99.52218395388999,125.12885476199001,75.96410064898001
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2006,84.25053247813,110.6440357079,63.60722909136
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2006,1029.91302094717,1310.89463233795,787.1025341078599
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2006,1206.3344913390201,1514.91192472909,944.76898399793
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2007,3839.67561045094,4512.88645415269,3401.45344465384
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2006,577.90656075604,722.05143910748,451.38126685993
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2007,25.72095396507,34.039901299389996,19.13333102548
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2006,2515.78539521865,3173.8596267560897,1947.4098265335401
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2007,1007.2978382744201,1312.95949700973,759.60367340061
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2006,966.1485484805099,1223.88678669545,738.05265761832
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2007,281.12450658233,382.03823034700997,205.63825507425
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2006,1113.53410363956,1435.7773449968502,837.6450942157301
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2001,785.56625214274,956.4123118565601,629.21783142097
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2000,4684.3828585492,27532.25027828638,42.68377690309
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2000,1039.16249510818,8448.949183677509,2.21832661489
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2000,19573.58466571533,72416.29187995999,755.07890215468
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2008,925.5210626612999,1207.7719068445901,703.23694792981
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2008,359.51367266836996,461.68350291495,275.83077499542003
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2007,27.144570454449997,36.28112060679,19.826201464529998
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2008,253.89327403046,1552.2280554615,4.50495969288
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2008,484.7077237697,611.41068008841,377.85576969595
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2007,6356.46603559458,8327.703383975491,4854.10914979263
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2007,43.80001348963,58.75438575974,33.232848192969996
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2000,797.1887242415199,3558.6579011931603,48.74720441974
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2008,25.70368191947,166.98710505351,0.00995838993
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2008,1051.07823836715,1316.38292954143,822.59114854865
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2008,439.07218347199,577.3849514869601,340.50270926953
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2007,580.64650736538,812.5035493631,411.88568495395003
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2008,1160.28086175009,1439.48398201943,899.06021094056
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2007,6068.67472137444,7972.17136908025,4580.1247462498795
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2008,398.09802821057,514.85177160241,304.31982413414
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2001,403.28345872734997,2432.4331885402903,8.66002348454
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2008,87.91300994856,111.74531658420001,66.70683646316
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2008,3098.81264117095,3916.06685626449,2366.70643529481
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2007,319.08704390427,426.04157320628997,242.13110770511
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2007,710.3777315144,938.23442746438,526.24070126131
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2007,74.54164926128999,100.69644614151001,53.073714091549995
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2008,115.94304816450001,149.01352560085002,88.90588964281
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2007,825.81265641518,1080.4537863205198,618.95075781838
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2008,4057.2472346218196,5202.49557206348,3129.11246923011
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2007,780.21271545634,1009.4291377908901,581.94854092635
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2007,14348.8322935752,18362.843811429768,11199.14289409568
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2007,64.23289787446,87.83659081265,46.28366080431
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2009,743.37113916247,957.65647335349,564.08618978098
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2008,20.03289246911,26.073889258979996,14.9749275569
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2009,5646.18775676702,7140.75162947624,4456.26057842446
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2007,1068.47084988542,1386.3503832220001,805.89210237596
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2001,4486.29117806392,29308.569646950476,51.68234518374
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2007,851.776518915,1108.89548038581,636.31300214724
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2009,1454.1185310405301,1827.7564795399999,1141.49134608708
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2007,498.31908645025004,658.47456862878,373.56520608102
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2009,930.7499996288999,1177.3296858382,711.66248556706
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2008,175.14520688801002,223.65389091896,135.29758331971001
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2008,3552.52777599144,4391.57472648417,2770.67983785631
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2007,236.96736916695,317.05940735744997,177.38231712547
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2009,2885.31614361154,3651.21933531284,2243.97054657297
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2009,393.96346452391,2284.41550648775,8.99939671403
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2001,17871.51661682498,65950.08055786669,730.03032488189
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2008,3745.75861497122,4400.22080951683,3267.3909425181705
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2008,394.60010923904,525.69885305094,293.39555020114
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2009,1575.68240118531,1965.41414508568,1220.38959121077
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2009,587.1654211080199,764.6783254918801,445.17134231999995
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2009,6009.72361087073,7704.03124857086,4655.56990553248
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2001,7506.60156524981,22183.64711002707,871.0692183594101
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2008,1842.9664452584,2289.06769156276,1423.6715151726098
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2008,8819.674737309439,10770.64716798913,6993.23394661788
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2008,133.80817670359,169.75689072180998,106.9184951908
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2008,1684.9273305725699,2078.28154960128,1309.94710721309
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2009,11427.34141773238,14036.554196751,9217.16794080155
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2001,827.1501062805401,3535.92073111246,67.14133437936
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2009,246.79592557865,316.99395766248,191.48246942006
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2008,83.46332369228,104.48792317817,64.25948891210001
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2002,755.50780728891,934.08072166103,610.41622280755
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2001,893.02089734249,7470.538269105011,2.75369680253
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2008,80.85568602979,104.0962943301,60.53697101771
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2009,225.67277279481,292.01180294727,170.40098077326002
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2008,68.46645924905,86.74829376509,53.06524403151
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2008,231.14251199692,293.9844223262,180.74126979575
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2009,1263.91303037764,1597.08547454207,987.68875916247
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2009,3783.4052296751297,4421.18961378237,3292.3601660331597
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2008,7.968771404300001,10.464080203790001,6.09176921059
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2009,214.00097250055998,270.95659763411004,163.71807370538
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2008,1109.8311248846899,1405.49171405116,847.3242401145401
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2010,16154.564392685032,20704.87347582882,12458.039666800209
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2010,631.13164523712,840.10201609991,466.23790990057
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2009,4926.25078054583,6263.38688585144,3854.01613171869
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2009,1438.56118908926,1839.97386046659,1098.78999892828
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2010,487.32418189530006,614.83505353176,375.45965985782
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2010,1397.73199275913,1835.77211981779,1051.6766335331502
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2002,17469.34462483311,64922.99922010102,540.5373397042999
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2002,6893.608759582349,20070.58156435536,782.99067689776
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2001,1050.3615258856,4784.99239099873,80.18884189636
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2009,11.73838867049,15.534689375200001,8.79252638887
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2009,385.62314758803,481.10579404085,302.46959003756
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2009,258.31005724664,331.23339304472,198.69740882108002
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2010,1584.1863822899102,1997.21688466889,1219.66250092209
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2010,369.77523872968,2500.50540501233,5.95126339316
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2010,5630.57915117658,7228.038083332849,4410.89703860439
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2009,38.38084336104,49.443828505729996,28.72560380454
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2010,29.999570736789998,220.1640701326,0.009824293809999999
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2009,56.25806937499,74.16520319147,42.23432486556
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2009,89.47447518358001,113.62330617221001,69.63957269292
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2003,619.8574677036199,770.89194350987,493.24882704975
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2009,16.322228286399998,21.283802300479998,12.556786591549999
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2009,4226.36734061485,5394.278545769101,3284.96413309285
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2009,3152.2311547207605,4038.0790976455,2438.9052323761402
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2002,884.11475317485,7703.84876049025,2.0346438850500004
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2010,3761.83153918931,4431.14262415266,3266.29843736632
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2011,2853.4024016242497,3656.0264869587204,2160.43716131152
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2010,484.53188482182003,637.2273895541,361.54782921463
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2010,1.9046833967699999,2.56492013554,1.3934951087899998
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2011,1949.8851020721902,2628.81681012043,1385.24369222427
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2010,781.5157435165501,1017.12249923331,595.22019855541
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2011,1122.1064912377701,1485.14903479178,852.5834537888201
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2011,224.50739783356,1536.32946901997,3.7796539153299995
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2011,1159.12773507302,1479.04009645754,882.1557201258099
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2003,12241.86820074181,45409.90734836104,417.44263244542
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2011,1685.63017797385,2205.54487237481,1261.89489473233
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2010,559.19975934796,721.5331089802701,421.84461605493004
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2010,344.60223315496,439.62453341669,263.93103895046
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2011,1544.53915186879,1985.08710637741,1169.4464022163302
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2009,8.16804841901,10.719366333009999,6.10772238714
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2010,46.28602030144,60.594375159909994,35.34781895998
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2010,381.49800527533,501.91181777572,288.73305116293
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2011,3613.07634029168,4285.686574889261,3098.96909336243
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2010,8.99256509171,11.989940075329999,6.664436080230001
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2010,12.23850717599,16.14948980602,8.847945584740001
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2010,610.6127969448701,780.71769258092,464.52710133770006
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2002,1017.11115504676,4440.15472421957,68.11547189963
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2003,738.1809993027699,6149.62611916027,2.22117846147
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2004,750.86009863624,913.71158966624,611.73249514178
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2012,510.70979042431003,629.8615012681099,411.56795736449004
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2012,405.98754464936,506.47007402673,317.87307038766
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2002,395.29182655215004,2566.11981886555,9.01542723365
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2011,14.957683387089999,20.707153377810002,10.699137100709999
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2011,426.91757781655997,553.94731027918,317.66461740527
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2011,2336.04027456285,3037.93184836899,1763.76375209214
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2010,45.398049809229995,58.38146651116,34.96111482189
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2010,20.34513606944,26.976505076579997,15.2345832632
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2012,401.36230994625,501.28541152002,316.33027946878997
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2012,682.8803118942501,839.5571302609799,545.33540547323
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2012,204.46220777256002,1186.71262436498,3.43695496456
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2012,1551.00816447485,1931.88715458519,1240.55267164933
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2011,1.34327501492,1.7776017259099999,0.9932392008900001
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2011,317.75669774561004,416.50411238759006,235.77565350096
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2011,938.93357809073,1233.6446733159798,695.5412954637
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2011,29.844239553730002,39.05552269584,22.17263138345
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2012,3506.7524596831304,4206.20039742398,2944.9502015534
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2012,5169.93861474576,6258.334013886841,4161.44844782728
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2012,2.61573559658,3.2951570002199997,2.02846775071
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2003,642.0031091726399,2969.67624845232,53.24655443822
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2011,3.47217663723,4.56486970947,2.53189125434
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2011,1983.80105164686,2575.3142053730303,1497.31018623682
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2010,7063.737098755641,9271.50122278517,5363.39108572615
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2011,520.2355396571401,673.18487459962,391.30184463595
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2012,5.55002178389,7.035699643589999,4.31566243997
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2012,53.18366642641001,64.98747573506,42.354664340090004
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2012,308.51801666822,382.88795138642,247.56807218312
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2012,18.444432084629998,23.03459039825,14.68791715198
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2012,602.88721020453,738.90464716829,486.89164252963997
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2013,3329.09528246187,4027.62071021952,2757.70475776097
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2012,19.88545558086,24.7429574906,15.64459360566
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2002,3991.87714837761,24748.54285117555,38.71522241667
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2012,2569.49471460364,3182.58671592415,2052.8611326753503
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2004,704.11845595387,961.24985470614,483.42368176764
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2004,8586.45920637456,11328.0093014297,6138.23121148752
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2003,328.66509456877,1833.21697601143,7.5278637238799995
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2004,1315.50018307896,1740.8976172114,946.30513097887
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2010,12.224849877499999,16.284442806020003,8.77525364119
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2010,151.72103852454,197.78124248513,115.62881345190999
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2012,3435.2694322966304,4207.35141414756,2739.16088196509
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2012,1.7138906835,2.1855924727100002,1.33631492193
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2011,108.78476193316,143.01950649456,81.74725777209
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2002,796.2858465536699,3487.13779815719,62.90470395055
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2011,29.445710533830002,39.82623122713,21.57613291459
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2012,3648.0372335439597,4481.2622097697795,2935.74844660607
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2012,493.62771253739993,611.36196885431,388.84263349332997
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2003,773.90887005719,3120.08270225271,55.84066928571001
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2011,3874.36106187493,5052.992367035719,2920.44146787533
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2010,3951.01401649106,5113.57702616152,3021.8298004835096
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2013,631.8393734858499,2601.22277022668,53.83734630673
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2013,459.86278601792,629.25831141159,279.97112551012
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2013,357.82887129962,488.1464010001,213.58519922142
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2004,6127.77863376065,8270.19431613344,4265.754183230059
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2013,20.921627104109998,115.45901463032001,0.59143074391
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2003,5904.12388136923,17251.111820575148,806.57891918939
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2003,3439.30906409086,23867.823202947948,48.45663226675
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2013,517.64910224405,710.37459234223,316.19607614921
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2010,3708.13183611378,4762.48161894378,2834.77542884974
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2012,2009.7131009840798,2461.18192170411,1618.45924118495
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2013,651.0355002313499,917.95277261142,390.61880590274
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2013,70.03306117699,96.83782472224999,42.945157130199995
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2004,2021.38381097114,2735.18810918406,1369.60898282875
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2013,297.49178428652,402.70308253106003,179.23513725023
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2012,104.95290427045,130.22524287678,83.04909367890001
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2011,153.82688639948998,204.06475148479,115.08552859420999
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2011,61.35419906478,82.36962259867,43.7925087542
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2012,9.18458367688,11.466288947699999,7.343898188560001
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2010,1022.3264673741701,1306.0277845682,793.53437220323
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2012,527.73079225299,642.0469464512901,424.00137180717996
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2013,505.78972614049997,700.17718241943,301.32302999783
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2013,147.3718885676,202.08827777959002,88.53283970691001
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2013,11.69705792985,16.41850195886,7.1700589625
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2013,1351.6424622530699,5314.142431739309,120.92443221138
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2011,759.9370839996,995.23896048177,565.98987667554
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2013,160.02448963166998,1146.57853023627,3.6843189770099998
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2010,20110.67408082856,24875.07377914866,15990.120455028451
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2004,784.1618589637301,1056.30707729845,515.88009692555
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2013,32.711531375570004,234.14582440023,0.00690855279
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2004,111.50825112927,148.61014714652,80.80586051166
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2012,9478.45035699202,11288.11110191405,7865.78908632774
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2013,24.49865866327,33.55988094771,15.02596620649
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2011,24.28243118383,30.862853072519997,18.63870486655
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2012,7.73556861971,9.66683826622,5.99644046309
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2012,273.11459032150003,336.74698556498,221.13309526253
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2011,1796.92670883684,2323.37504487485,1374.5397678135898
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2012,245.92644116013,305.34346897958,196.38962357389
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2013,20.716440770250003,28.567674624989998,12.675169516670001
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2013,204.8843293376,283.88491007555,123.13346843564001
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2014,3181.64461956351,3908.5702531683896,2611.1696984508903
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2013,18.03141479268,108.00928968949,0.5498949760799999
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2013,4834.49094775905,6537.99424940017,2950.6746859169803
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2014,727.76903054364,937.2005208973101,554.2392571719299
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2014,184.03071821428,229.21157254765,143.63450431264
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2011,8114.69154612892,10116.79971560494,6383.9884493870695
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2014,207.58306361482,265.03326222415,162.51381919556
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2014,303.48743582172,394.7787553557,231.18787567851
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2013,235.61988102539,1604.02234266626,1.03445228694
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2014,31.60297773893,40.0228125578,24.45500006867
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2013,712.74721050404,962.8564101871001,423.01933346228003
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2014,91.6423271983,116.50723549057,72.19232689716
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2014,26.26767065956,33.173671106389996,21.01861982067
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2014,418.65517681946,529.79471468596,327.29685959556
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2014,362.27652405797,458.82288797664,280.69363862868
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2014,4.540743073550001,5.99396765858,3.3550119346600003
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2014,1.3564887067,1.81738488502,1.00066904275
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2014,326.37178050514,406.79533397448,259.39325399314004
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2013,3038.78510400582,12810.72122615353,188.32882053718998
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2014,5.97625359591,7.63620858783,4.64888033608
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2013,1.2399880809700001,1.97825473029,0.68028083663
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2014,76.55647436183,96.67779814091,60.24139817203999
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2013,172.69647443581,240.65301978087,103.54811669003
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2014,121.09165343890001,158.1105979299,93.89427893821
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2014,15.986347233340002,20.34354357321,12.33255459816
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2014,594.63913924087,765.35406915766,457.05138436392
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2005,719.95306782715,863.4412891500799,594.98202408198
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2015,3131.00861588363,3860.25237680803,2588.1412325509
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2014,3.02081268235,3.89955495208,2.32155439544
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2013,15842.587910926079,53266.08669140219,1704.40678869283
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2014,3914.37908650545,4937.81202177035,3066.06738058773
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2013,37.407976077330005,51.33049864248,22.61834707549
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2013,272.38851775037,374.68375277088,167.33966752159
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2014,8.49652447317,11.15255548119,6.34783201106
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2014,35.1448051567,44.513073393069995,27.27834496224
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2014,39.49797237222,50.90032056305,30.24468145666
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2014,2025.40197174166,2553.63508618462,1588.28083950761
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2014,2.18226531802,2.8101965513300002,1.64192005945
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2005,162.4511862227,237.17828261008,74.70332977391
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2014,213.37838753945002,268.22105890737,168.51342118357002
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2005,5629.950612179569,8008.35870118808,2811.51004388938
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2005,4354.135299989511,6472.72006130508,2099.58361162287
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2014,5379.08548344072,6583.16688920388,4395.07646022259
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2014,322.68413013355,403.85384670322,253.3026074905
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2005,8521.58287044619,42694.15018126528,177.95974089606
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2015,76.68322892675,96.46707825804,59.58224778515999
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2015,64.21657905481,81.90848686819001,48.81183044478
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2005,4101.21179690616,6021.83413860719,1951.31064900875
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2015,334.16092231781,431.07734406807,249.33472100030002
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2015,501.7131298255,641.9823739462499,394.41366156574003
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2015,1.7501732289,2.43071688156,1.26141546773
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2015,61.84056770815,78.66677071676999,48.600985570519995
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2005,749.40331244155,1078.48887992255,361.15760200978997
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2015,581.51443072035,738.37023208744,464.70854270577
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2015,0.62140678206,1.06013246912,0.35150483461
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2006,701.13183930885,815.37950540141,586.80629347402
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2015,5.50162399538,6.88327210255,4.31242174575
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2015,49.555207745850005,64.32442125189,37.47327684249
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2015,7.61965660838,9.72042910502,6.01985428491
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2015,67.88992214514,86.11876156554001,51.870105140830006
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2006,738.40219629056,940.76987306991,573.50817331919
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2006,7198.793010617489,8895.24862171939,5760.84624261317
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2015,74.70491681607,94.69300862491,58.93194482335001
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2006,6266.489378423131,7676.02752625447,5089.75132927885
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2015,58.343192360820005,74.91861552041,45.09829692108
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2015,27.817203601120003,35.8764440582,21.67974994656
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2015,87.98447046117,112.23215253674002,68.7119292996
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2015,2.92860188391,3.79504651446,2.208609724
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2006,424.09942474425003,541.6556894413,326.38070183625
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2015,1.7265136616999999,2.32669357184,1.2298095099400002
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2015,409.83009550184005,521.91000062423,319.95308373438996
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2006,58.34995747168,74.84025133992,44.94639532595
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2015,1356.77329975633,1687.0667179118702,1091.81115794034
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2015,688.60651507542,860.40116925592,536.55552185049
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2006,634.96093948221,820.23886242784,483.01134117964006
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2015,172.89009630577,217.57233396744,132.78711492899
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2006,736.9086244648499,914.75551215416,586.87453663883
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2015,0.59347475394,1.2000927293,0.24267940194
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2015,1144.8408108506,1404.27449298385,921.02832132666
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2016,3078.85682941515,3754.61226834881,2574.8299115935
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2007,667.49068087058,832.61007372683,543.95512558208
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2016,1.51627587983,2.17585593735,1.01713488054
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2016,160.03922979385,198.40228220005,129.37746641685
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2016,849.33868312865,1056.40028310709,680.27403396664
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2016,309.04046019138,391.72398018272,239.25712121022
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2016,750.57000881643,941.9479354761199,591.64895816669
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2016,497.26344140631994,613.21303292192,401.95615290837003
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2016,24.84292703649,30.12800489713,20.13942701937
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2016,4202.02439668852,5125.79404914956,3435.45270508361
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2007,27.77877687484,36.35060533397,21.07473947552
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2007,17356.509752361908,21781.20780692051,13487.39382229432
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2007,4588.86185065442,5882.46037031257,3509.17117824098
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2008,497.42272972720997,581.54053398652,415.82508378972
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2007,846.0434356419499,1145.16872328898,616.21993931062
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2007,770.5477150113801,1012.18842703856,572.67423060429
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2008,90.80739663639001,116.75611711815,69.80934086363
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2017,1039.65670507844,5123.8756802915095,50.77936831975
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2008,6436.08274204506,7868.075106095471,5220.1797877974295
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2016,57.035568147199996,71.49959464988,45.907259813639996
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2016,148.29714786635,181.40740605367,117.99297863839999
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2017,56.4067782694,119.83720477726999,11.24165023829
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2017,472.50052068506,1741.37818269787,49.28232407393
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2008,3897.4363287277797,4800.84024311136,3114.85188084884
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2017,458.52000424971,997.9629891580701,89.94787825335
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2017,106.1403839783,629.75174763479,1.6923834125000001
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2016,1.27956342101,2.11835876952,0.74325813212
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2017,775.96730055637,2824.43020252219,52.12457869048001
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2007,718.25472462271,947.1810602591,531.53853951411
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2017,6.999346838299999,14.97871886749,1.40085288534
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2017,909.31244029473,4236.3860371371,36.770247147620005
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2007,896.0105019292,1131.22600651376,682.95001051325
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2016,7.1638192073999996,9.114693802029999,5.61002474629
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2008,1821.7239288905298,2311.78587771611,1400.2260585701301
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2009,676.75958309406,796.8566340248199,570.69228780085
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2016,367.92291306716,466.89508321560004,288.91028148000004
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2016,487.09043772057004,597.44717515335,388.30832246610004
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2008,226.37038634527002,282.32115024014,174.93683181767
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2017,3084.92575562698,3763.11698115633,2549.88103012797
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2008,214.71511492605998,274.57001340765004,164.36448174158
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2016,526.6047373828201,647.9540292711799,423.78086780032
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2016,24.42123288087,30.80476732491,19.35646418963
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2008,668.85073198908,834.87350254452,539.41138487211
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2009,225.26254676892998,286.091144411,173.28983490624
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2009,2687.0566925818703,3305.42132805152,2149.5831764107497
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2009,7409.76159756542,9312.08310837044,5835.78174719977
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2017,14.567182905660001,94.24201555930999,0.23464595709
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2017,156.31781179474,740.82007891894,4.77343979037
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2018,588.4364430814401,2779.23469767447,25.28442769558
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2018,317.92959753973,1142.8365469278401,24.79047944605
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2018,227.35429556812,959.4682967932999,11.772581688339999
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2009,3989.7002446612,5075.210498913791,3074.39924350111
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2016,2.21339065961,3.0569419434399996,1.5485210848000002
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2018,58.87200333146,353.46966838772,0.7915267210899999
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2010,760.3815155292699,919.95035099548,635.65822832714
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2018,660.62605752222,4756.06330298338,6.11266572972
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2016,128.90932986213,161.45452775842,102.70713598153999
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2017,214.79688082865,452.88830616546994,41.3008873061
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2016,4325.40159057731,5297.93132415229,3479.4804269356396
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2009,577.70819434576,734.82222720192,445.81880961892
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2009,883.0814538881701,1125.29754878181,678.98911147686
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2017,243.05953036018002,1313.754485829,8.503732254860001
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2018,8.31291163985,68.20284890795,0.00282409452
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2018,481.7979633384,2085.14638628645,29.333524564850002
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2009,1285.94221838342,1574.1637436874598,1011.1544537107101
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2018,538.58422399863,2716.88706100179,20.80674541725
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2018,3066.05915787251,3775.1659451912597,2451.87332312857
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2010,146.62067452943,193.31260434064,110.56451576866
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2010,6818.409454859569,8479.9213363567,5332.65311310179
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2010,7503.241464404239,9400.73499113776,5942.04060268706
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2010,3929.8874905557395,5071.01427005785,2938.63910220123
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2011,646.36409599247,781.98121539214,534.8061234117599
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2010,489.98017223171996,629.3601166352199,372.24029228097
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2017,80.35640728838,439.57624122491006,2.02829874251
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2016,21.455071236640002,27.420075322299997,16.48140316615
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2017,329.54178216429,705.3014750961801,63.64085554994001
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2010,257.77297613558,332.39777338674,195.33586970072
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2016,166.94025651965,207.32157724503,132.57407718681
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2010,2117.89355826234,2680.81914116596,1665.2445460446902
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2011,987.3976358934399,1289.51895037232,725.67458145025
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2018,433.95475600433997,2539.43771575757,5.12864779281
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2011,4541.16144216418,5650.06972324493,3527.22000832488
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2011,7716.88776489807,9617.063302242961,6117.90095649294
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2016,64.08718781332,79.28402567757,50.71907092412
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2017,2704.7577461913197,10962.9008035568,178.93873790093
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2016,1.5334315300599999,2.48509148364,0.88297334289
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2011,7134.7033143788,9467.66629305745,5347.58784429193
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2018,9.214260449760001,60.516750022619995,0.17952797612000002
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2016,2594.6421340307097,3179.84757188301,2089.5803623952497
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2018,350.60338854496,2267.05924805435,2.3871117591399997
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2018,153.01842194026,814.89361957678,6.27142430821
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2011,2404.25538308114,3040.76605209336,1810.7721007748798
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2018,93.10990453375,470.99732303523,2.72984054028
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2018,16.812517478700002,106.92542422564,0.13129969373
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2011,159.70841359622,209.36281965433,117.46482629755
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2018,182.07068262746,797.63045826301,12.65755551875
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2017,26.86293360005,57.39141333567,5.51247245559
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2017,684.59445467867,4430.77232335371,7.3730217044
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2011,1501.14608117946,1903.9526039390498,1155.23317145029
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2019,755.77919368512,4883.489143534131,6.80275844735
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2019,682.45766562964,3555.06800657897,28.387242319489996
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2019,65.57968197150001,395.39345164156,1.02178142413
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2018,51.01564543581,276.34675443949004,1.5279769673299999
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2018,231.72530283042002,1214.30190476178,5.64125152039
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2019,590.6031094188301,2520.27604519029,34.2833571077
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2019,3079.4367748824698,3801.1128239743,2449.55910553577
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2019,11.24454893834,75.36322597501,0.00233089986
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2019,339.94839814808,1362.7903414912298,23.96563366459
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2016,7584.34217320661,9141.69345436307,6381.05940554757
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2018,63.07583983899,362.82816963568996,1.94933769828
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2016,0.71577312172,1.47365932794,0.28020569343
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2017,1930.48142361728,9113.070994968859,67.88166634224
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2016,179.01171521508,224.31922264293,144.69805164342998
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2018,6.882594578239999,43.93850762639,0.1429584239
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2018,1435.68173257857,6317.00240015055,106.6680166195
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2019,554.65857250124,2933.58039190505,19.558467113779997
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2012,573.62742769335,663.2135060873001,491.94593301957997
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2019,270.21418117818996,1277.21329321405,13.86137876409
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2012,10908.81984507808,12906.821275448441,9115.76306792548
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2012,141.45316625074,176.21441455176,111.32812874692
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2012,3309.33394263039,3943.4225441926105,2721.38149545332
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2012,1839.73742637638,2266.84750859522,1475.50283409024
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2012,3286.7909966263596,4076.9501615659,2626.06705356471
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2012,1376.43258260691,1667.02527576943,1117.96548419032
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2012,312.40181560082,387.48068805523997,246.89949930507998
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2018,21.38293836468,145.34987402712,0.08796621142
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2017,10343.929303858471,38363.10069749892,610.0913012370701
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2019,392.61275766657,2668.48777575145,3.24653122832
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2019,203.47184780369,795.0062247641999,13.372620651199998
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2018,109.18939064821,465.52024620350005,6.20263667963
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2019,17.839307892340003,114.92430543873002,0.20699057221
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2018,1169.9680809337501,6277.25179691156,52.128805150389994
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2018,83.96708946731,635.04356597822,0.36807324622000004
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2018,482.92588938348,3575.4603563279397,2.3447217564200002
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2019,6.68141528329,38.54639514561,0.15838910313
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2019,1763.87555522535,6756.2424054270095,104.67226022045999
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2018,6830.40460483179,29363.03413884243,397.63634268376
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2019,77.35745267552,495.44125309609,1.75860178073
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2018,791.07367026519,4220.158401982299,17.854580791540002
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2017,27.78313672692,217.81174384243002,0.30010087947999997
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2017,578.51145640178,3629.8938259069496,5.0057436733100005
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2019,21.73918839836,150.48827943948,0.1039778523
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2020,77.41864341328,97.68198242982001,61.18817324537
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2019,1213.9718603461602,6014.5564600801,53.20786627833999
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2020,87.18887480758,111.30601534463001,66.69468127357
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2020,91.25960114532,115.67657059955,70.71127927382
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2020,33.475211087489996,41.50569830919,26.75766885561
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2019,131.96171408817,531.2054280912,7.13427554883
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2020,401.61434940357003,499.52714071415,316.48910546004004
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2020,4.81385936333,6.10991316066,3.66882798134
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2020,251.49880903201998,311.69315923983,198.54375810573
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2019,163.39867447611002,899.42592017914,5.71494208885
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2019,96.10275196376,518.19438479376,3.1462410228299995
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2019,10.41882604897,60.941931837620004,0.18535929225
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2020,33.178246389070004,40.71229889139,26.51869874224
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2017,11.442783429030001,66.96330441869999,0.203327391
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2019,233.90513884169002,1144.21798554773,5.65143149723
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2017,103.75329553285,571.21030232536,3.93433243501
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2019,64.23552873122,357.48925449478,1.68251187817
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2019,509.55289344580996,4005.3253462384005,2.9550005195
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2020,3173.33497893916,3925.30103133183,2529.87490997625
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2019,7462.58204513888,29460.19546379675,502.41891994912
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2019,823.7685521989,4880.35951549224,21.77200682395
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2019,96.70843879984,731.38354046339,0.36353324424
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2019,526.23722566477,3863.87348894276,6.490608820349999
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2013,487.27095801003,575.98488756039,405.04032114831006
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2017,37.072485683580005,263.54301570094003,0.15324500176
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2013,4872.43883173021,6557.4609242012,3055.252469426
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2013,170.1637173944,232.29382854437,103.08246792466
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2013,9645.997169541071,12744.017473873359,6003.713290504
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2017,171.08851527203,827.19608720249,12.55229551261
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2020,61.77911109117,79.83826795041,47.155146364299995
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2014,355.13428699697,412.42267365708994,299.81405017734
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2014,501.40468562411,617.2660626227799,397.39254836547997
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2014,323.38760002545,413.23066526593004,252.08379559155998
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2013,786.45252841072,5816.76745302135,2.23716958754
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2013,1530.02681516859,2157.1241699100096,928.5575196885601
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2014,76.76330252004,97.63317117033999,58.888572887749994
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2015,331.64669735598,394.52261765095,284.98987224691
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2017,167.04303999351,356.34203612211,32.43345135867
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2013,1142.63019470249,1516.90044624098,695.34257426286
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2013,455.61214726953,627.67292257537,269.80267044219
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2014,8069.4625407740805,9662.18161661856,6642.28537590611
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2014,734.18382772962,929.97350800893,562.97747773846
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2021,37.88975336951,48.39936060403,29.34495584242
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2020,24.376875483459997,30.066579240579998,19.577090049000002
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2021,45.96543205143,59.83158391558,35.19163328185
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2020,3272.60721980505,3971.87700064413,2664.03124256899
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2020,6.09244783316,7.771364268539999,4.65327641984
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2020,5.19928354793,6.724525123509999,3.96165492098
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2020,49.29398243675,61.955234134,38.86800724277
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2020,48.84074730197,60.70426098442,38.323195721750004
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2021,13.409186360869999,17.38512561797,10.30141640955
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2017,1184.80071507224,6660.95415241636,40.29714967199
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2014,4525.21481101903,5579.4037123033295,3682.14731017152
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2021,297.90797795762,381.99167085479996,229.23567557356998
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2020,10.744327408750001,13.40213235022,8.42776329437
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2021,3158.83405965287,3930.6463357675902,2567.54699403052
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2021,164.37741366174,209.32252579724002,128.03882002622
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2021,16.50165908329,20.735461628379998,13.01589242778
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2020,5.23913777992,6.67411235625,4.03450449194
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2020,0.69478589027,1.45043988608,0.27657255832
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2015,11586.84496331788,13748.71330297441,9731.7387646607
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2015,2863.4334222430202,3525.99311558119,2304.65555975043
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2020,79.51921859806,100.12525128313,62.05397540519
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2014,76.21620932453,97.04608639204,59.52794233643999
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2015,26.42664453308,33.63508247092,20.27564592825
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2021,8.76264632704,11.65099415022,6.48473011138
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2021,7.71942765622,9.80780857913,6.0364688264
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2020,239.19976561062998,302.05108097884,188.3793173143
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2020,1.5440057056599998,2.49895297828,0.9297396757399999
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2020,138.75864824376,177.23826702923,107.51732031966999
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2020,14.356194904870001,17.85499817758,11.47574558705
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2015,9.7698817289,12.34146809479,7.637742713000001
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2015,1463.6946000928199,1857.9363426864702,1143.3011174546
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2016,310.70599982153,367.40443930953,270.99488789699
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2020,3.1659516692900005,4.18996394283,2.30973291734
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2020,80.54385760978,100.12912809764,63.62958368374
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2015,358.50205708453,445.35319656398,285.02573081400004
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2015,518.67321162295,661.56040058234,398.12928271122996
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2016,1220.13144105569,1469.90024429711,997.80709386661
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2016,389.7477166754,488.34301013979996,305.12326324099
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2020,10.63603025158,13.148221508349998,8.476584147399999
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2016,2732.81292646364,3274.77037946452,2252.24604061828
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2020,24.844016709290003,30.77688465553,19.76611310499
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2022,19.45640564451,25.36483506077,14.441996444029998
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2017,404.59544984394,493.43975823133997,324.21598363487
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2022,54.923005923619996,70.74280098249,41.77345071446
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2016,1788.95789791679,2233.19065395015,1413.53943764009
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2022,66.82151366972,90.52216356393,50.34448378819
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2021,3.4060658135999997,4.50488494169,2.57328506581
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2021,131.50420760277999,172.20793642345,99.06659169884001
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2016,78.22499821172,97.48224586998,62.923891883550006
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2022,23.78887516861,29.86113888427,18.41237334859
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2022,429.16828250148,545.25865683645,325.44332033332
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2016,357.93708366838,444.08841153108,284.42746560673
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2022,12.827180588960001,16.883767161570002,9.20617557025
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2021,1.69443541101,2.37676713911,1.18587054775
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2016,180.55005565118,220.93752102199,147.21578856213
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2022,240.50223551504,306.19368878681,184.64235857908
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2021,7.87773801176,10.13464166383,6.08765094353
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2021,5.01830287519,6.59918200896,3.75873411803
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2022,11.1864666142,14.29272281012,8.57209358389
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2021,59.21192888391,75.96217530309,45.22060188367
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2021,33.00252834717,42.36552022809,25.60287890372
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2021,5.4310327998300005,6.904391615700001,4.2197473610500005
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2021,28.36723113255,37.050597564890005,22.0159971736
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2021,217.34144088469003,276.30598487089003,170.49500131676
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2021,46.37472464186,58.89857445173,36.52429985797
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2021,10921.60842346839,13365.778279815,8912.99764437584
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2021,28.54882022746,35.943785423070004,22.2669300464
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2021,4.3008370108600005,5.62101012153,3.2481761015300004
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2021,56.33822447131,71.6719603711,43.95935846889
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2021,3.8700201578299995,5.11086942829,2.90434660511
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2021,16.77656563459,21.230161371770002,13.18598444951
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2021,50.440916326250004,64.83997355017,39.17220448143
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2021,12.85567512009,16.52139365575,9.93129642475
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,345,Malaria,3,Rate,2023,46.51304653137,83.95222280267001,24.913908383629998
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2023,56.61983031124001,101.24847110624,30.90337588289
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2022,40.91733141822,51.70629416658,31.19824502437
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2022,4.98103571538,6.542094247370001,3.68648320435
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2022,191.57351888324,252.37622067369,142.1118883448
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2023,361.7448840976,622.6031897483899,199.45630327235997
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,345,Malaria,3,Rate,2023,16.52565121879,28.686337848810002,8.72637445906
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2022,2.4827206021099997,3.54788493196,1.6913947186000002
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2022,316.10355365833,402.24047415358,242.46577284198
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2022,11.50360519482,14.759667216650001,8.58533962156
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2023,206.02146806804,365.36034743042,110.23431667044001
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2023,19.94155373338,35.38817260243,10.47739639639
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2022,7.287230507159999,9.74012538197,5.40837600669
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2022,67.33712153172,86.02954133048,52.07261241732
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2022,84.21849893949,108.95158951972002,63.42159461557001
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2023,9.49578822142,16.69965969178,5.00571605248
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,345,Malaria,3,Rate,2023,10.98532026165,19.27516295779,5.87488082104
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2022,15609.20917698276,19090.06335358457,12625.51622130004
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2022,47.984781692569996,61.01663661629,37.00100282083
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2022,7.8822805140100005,10.206732526249999,6.03950484246
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2023,163.25072412775,289.4094932297,85.06881762667
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,345,Malaria,3,Rate,2023,6.68210565246,11.6337805824,3.59606358449
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2022,3240.96854015099,4168.81726017457,2633.45402495976
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2023,40.83511023752,69.73404472687,21.42535128123
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2023,57.11111173081999,100.11900502629001,31.20582037863
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2023,9.81680100383,16.40520241189,5.2398349298
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,345,Malaria,3,Rate,2023,4.2682795159,7.46246581788,2.21586521554
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,345,Malaria,3,Rate,2023,13291.294755834351,22225.5091772807,7479.953866056931
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,345,Malaria,3,Rate,2023,2.12801168808,3.8290385969500003,1.0637410141699999
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,345,Malaria,3,Rate,2023,70.05214655787,123.28462984319,38.10794715905
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2023,34.51337096951,60.522290811699996,18.25669240543
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,345,Malaria,3,Rate,2023,269.15101579228,459.41739001323003,146.22252443317998
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,345,Malaria,3,Rate,2023,6.1876268757499995,10.992700271550001,3.20040581394
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2022,41.52621052843,53.29195264661,31.639440218399997
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2022,5.59505243069,7.33791258386,4.12369613137
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2022,73.5246690977,93.72630081637,55.21740898727
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2022,18.80761236713,23.97729738191,14.15278872637
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2022,81.42316579024,104.21748575328,61.453194368320005
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2022,6.28758432741,8.31208653164,4.60030139435
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2022,24.08976557626,30.95026766392,18.44745302766
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,345,Malaria,3,Rate,2023,3214.99480363538,4221.967874550131,2591.2281787503
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,345,Malaria,3,Rate,2023,4.7306272935199996,8.30033319592,2.51087559885
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,345,Malaria,3,Rate,2023,35.310311197809995,60.94064539471,18.8259298485
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2023,62.67801793751,107.67695999013,34.03050621901
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,345,Malaria,3,Rate,2023,16.10241077537,27.90926874692,8.462125320890001
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,345,Malaria,3,Rate,2023,68.78635656127001,118.34108799747001,37.18757196129
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,345,Malaria,3,Rate,2023,5.36974128566,9.55313102977,2.79348694824
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,345,Malaria,3,Rate,2023,20.221238895669998,35.69990889191,10.84204209653
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2017,201.47077353553,1158.48210004143,4.04123188337
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2017,2272.5972381502897,13717.3783203134,20.87934619409
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2017,7331.57011463047,21910.16934497933,316.46339578874
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2017,2342.0526328238398,4880.83427458001,475.21183825393
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2017,428.31684941396,1994.2795412782498,24.98336714297
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2017,525.15860940351,4529.96121146898,1.12679196352
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2017,504.38951340397,2202.76560964691,30.105734112729998
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2018,293.72830303765,354.66254473059,232.99953198316
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2018,125.48075949688001,719.1155248771399,2.33400451495
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2018,5030.03057094031,16147.320047989619,202.47968031648
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2018,2273.5632065794703,7248.591942468461,191.82450389529
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2018,1414.96459010788,9451.81956249564,15.154922204820002
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2018,287.46724101119,2626.75126038087,0.7145262384
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2019,335.5010790979,406.68702176616,275.57838517946
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2018,252.07837426846,1090.0838051276698,16.69034441183
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2018,321.08704651848,1297.44096429815,21.48574707689
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2019,136.90608318479002,801.27895788374,2.25279151972
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2019,5784.62800565094,17417.54571462466,317.04798056269004
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2019,2688.38388984324,9358.32311188385,228.11145657903
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2020,340.56781538604,398.00916655041,289.46388920133
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2019,1298.45056714381,7368.7463365431095,13.457614466499999
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2020,5.60342508059,7.136297744439999,4.28826299389
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2019,352.19028592120003,3378.78619295615,0.71597012996
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2020,1218.40992907278,1488.69464311085,981.9260897921799
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2020,16090.721549346179,18767.52931929586,13677.40987496934
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2021,383.23221908951996,448.69143510392996,324.75300478745004
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2019,260.79672904009,1134.5907233269,17.05933793837
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2020,33.640831165150004,41.36425533075,26.21837174083
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2020,8.44749900451,10.53965470595,6.65236046897
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2019,345.94477108101,1459.3285237033901,24.07971407786
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2021,1.80556977073,2.5581334521300003,1.22698391462
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2021,640.59768723464,799.5363888031101,509.50647285862
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2020,31.234634418659997,38.55924474082,24.95999544804
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2020,35.1416752145,44.74643204301,27.023505028000002
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2021,16954.79154287296,19686.79440137525,14434.21067902247
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2021,0.83863470157,1.58218056562,0.40309886699999997
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2021,1.86662463412,2.64882866992,1.28598046311
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2022,551.0178181579199,650.64893549907,451.40725318868004
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2021,39.74451904898,51.16672980405,30.64981954571
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2021,24.3505873947,30.49128270125,19.10494051208
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,345,Malaria,3,Rate,2023,470.87394993906,789.30361245491,263.81020529875997
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2022,23615.7364209066,28174.493756116182,19524.94673101242
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2022,2.62461828718,3.78335237231,1.79636283813
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2022,928.44061895439,1160.6774946007902,718.26728654365
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,345,Malaria,3,Rate,2023,19604.306404411058,32640.21091096692,11167.010001646311
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,345,Malaria,3,Rate,2023,785.86705371132,1369.0172332764898,425.03994237434
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,345,Malaria,3,Rate,2023,2.23221492307,4.0637737526799995,1.1247672257599999
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2022,1.21105510151,2.32906097567,0.5840558868
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2022,2.71098832972,3.8718261849799998,1.85616960782
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2023,2.29744588778,3.98866099016,1.15344610572
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,345,Malaria,3,Rate,2023,1.02900266422,2.1997825023799997,0.40310529674
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2022,57.98312691793,75.5324701689,43.25619821198
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2022,35.322600650460004,44.34445368615,27.45827447531
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,345,Malaria,3,Rate,2023,29.989720593189997,52.202371541649995,15.91988584124
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,345,Malaria,3,Rate,2023,49.456660521829996,85.57430730480999,25.89613948371

@@ -19,6 +19,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { indicatorRegistry } from "@/lib/chart/indicatorRegistry";
+import { uiAvailableRegions } from "@/lib/data/regions";
 import { Series, TimeRange } from "./chart.types";
 import { createPortal } from "react-dom";
 
@@ -49,7 +50,7 @@ export function ChartToolbar({
 
     const registryValues = Object.values(indicatorRegistry);
     const indicatorOptions = registryValues.map(m => m.label);
-    const regionOptions = ["Global", "Indonesia", "Jakarta"];
+    const regionOptions = uiAvailableRegions;
 
     const getIndicatorId = (label: string) =>
         registryValues.find(m => m.label === label)?.id || label;

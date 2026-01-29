@@ -1,12 +1,13 @@
 import { useState, useEffect, useCallback } from "react";
 import { ChartState, Series, TimeRange } from "@/components/chart/chart.types";
+import { indicatorRegistry } from "@/lib/chart/indicatorRegistry";
 
 const STORAGE_KEY = "medlogy_chart_state_v1";
 
 const DEFAULT_STATE: ChartState = {
     primary: {
         id: "primary",
-        indicator: "Dengue incidence",
+        indicator: "dengue_incidence",
         region: "Global",
     },
     comparisons: [],
@@ -20,14 +21,25 @@ export function useChartPersistence() {
     const [state, setState] = useState<ChartState>(DEFAULT_STATE);
     const [isHydrated, setIsHydrated] = useState(false);
 
+
+
     // Load from storage on mount
     useEffect(() => {
         try {
             const saved = localStorage.getItem(STORAGE_KEY);
             if (saved) {
                 const parsed = JSON.parse(saved);
-                // Basic structural check could be added here
-                setState(parsed);
+
+                // 🛡️ VALIDATION: If the saved indicator no longer exists (e.g. we renamed/deleted it), fallback to default.
+                const indicatorExists = parsed.primary?.indicator && indicatorRegistry[parsed.primary.indicator];
+
+                if (indicatorExists) {
+                    setState(parsed);
+                } else {
+                    console.warn(`[ChartPersistence] Invalid or deprecated indicator "${parsed.primary?.indicator}" found in storage. Resetting to default.`);
+                    // We don't call setState(parsed) here, so it stays as DEFAULT_STATE
+                    // Optionally we could try to rescue the rest of the state, but safely resetting primary is better.
+                }
             }
         } catch (e) {
             console.error("Failed to load chart state", e);

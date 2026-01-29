@@ -19,6 +19,12 @@ export interface IndicatorMeta {
     // 🔑 DATA SEMANTICS (SOURCE OF TRUTH)
     dataStatus: DataStatus;
     source: string;
+
+    // ⚙️ INGESTION CONFIG (New V1.5)
+    ingestion: {
+        type: "local_ihme" | "owid_csv" | "world_bank" | "simulation";
+        param?: string; // filename, slug, or api code
+    };
 }
 
 export const indicatorRegistry: Record<string, IndicatorMeta> = {
@@ -38,6 +44,10 @@ export const indicatorRegistry: Record<string, IndicatorMeta> = {
         // IHME GBD = modeled epidemiological estimates
         dataStatus: "modeled",
         source: "Institute for Health Metrics and Evaluation (IHME), Global Burden of Disease (GBD)",
+        ingestion: {
+            type: "local_ihme",
+            param: "dengue_incidence_{REGION}.json" // Dynamic: replaced by Adapter
+        }
     },
 
     /* ======================================================
@@ -56,42 +66,79 @@ export const indicatorRegistry: Record<string, IndicatorMeta> = {
         // UN demographic observations
         dataStatus: "observed",
         source: "United Nations, via Our World in Data",
+        ingestion: {
+            type: "owid_csv",
+            param: "life-expectancy" // OWID Grapher Slug
+        }
     },
 
     /* ======================================================
-       🟡 HIV PREVALENCE — SIMULATED (TEMPORARY)
+       🔴 HIV/AIDS INCIDENCE — MODELED
        ====================================================== */
-    hiv_prevalence: {
-        id: "hiv_prevalence",
-        label: "HIV prevalence",
-        unit: "%",
+    hiv_incidence: {
+        id: "hiv_incidence",
+        label: "HIV/AIDS incidence",
+        unit: "new cases per 100k",
         scale: "linear",
-        normalization: "percentage",
-        recommendedAxis: "secondary",
-        mockRange: [0.1, 15],
-        availableYears: [1990, 2020],
+        normalization: "per_100k",
+        recommendedAxis: "shared",
+        mockRange: [10, 100],
+        availableYears: [1990, 2023],
 
-        // Placeholder until ingestion pipeline is added
-        dataStatus: "simulated",
-        source: "Internal simulation (no live ingestion yet)",
+        // IHME GBD (Observed + Modeled)
+        dataStatus: "modeled",
+        source: "IHME, Global Burden of Disease (GBD 2023)",
+        ingestion: {
+            type: "local_ihme",
+            param: "hiv_incidence_{REGION}.json"
+        }
     },
 
     /* ======================================================
        🟡 TB MORTALITY — SIMULATED (BLOCKED SOURCE)
        ====================================================== */
-    tb_mortality: {
-        id: "tb_mortality",
-        label: "TB mortality",
-        unit: "deaths per 100k",
+    /* ======================================================
+       🔴 MALARIA INCIDENCE — MODELED
+       ====================================================== */
+    malaria_incidence: {
+        id: "malaria_incidence",
+        label: "Malaria incidence",
+        unit: "new cases per 100k",
         scale: "linear",
         normalization: "per_100k",
         recommendedAxis: "shared",
-        mockRange: [5, 50],
-        availableYears: [2000, 2021],
+        mockRange: [0, 5000],
+        availableYears: [1990, 2021],
 
-        // OWID endpoint exists but CSV is non-redistributable (403)
-        dataStatus: "simulated",
-        source: "Simulated (OWID source non-redistributable)",
+        // IHME GBD (Observed + Modeled)
+        dataStatus: "modeled",
+        source: "IHME, Global Burden of Disease (GBD 2021)",
+        ingestion: {
+            type: "local_ihme",
+            param: "malaria_incidence.json" // Single multi-region file
+        }
+    },
+
+    /* ======================================================
+       🔴 TUBERCULOSIS INCIDENCE — MODELED
+       ====================================================== */
+    tb_incidence: {
+        id: "tb_incidence",
+        label: "Tuberculosis incidence",
+        unit: "new cases per 100k",
+        scale: "linear",
+        normalization: "per_100k",
+        recommendedAxis: "shared",
+        mockRange: [50, 250],
+        availableYears: [1990, 2023],
+
+        // IHME GBD (Observed + Modeled)
+        dataStatus: "modeled",
+        source: "IHME, Global Burden of Disease (GBD 2023)",
+        ingestion: {
+            type: "local_ihme",
+            param: "tb_incidence_{REGION}.json"
+        }
     },
 };
 
