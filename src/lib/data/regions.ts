@@ -10,6 +10,8 @@ export const REGION_ISO_MAP: Record<string, string> = {
     "Bali": "Bali"
 };
 
+import { Region } from "@/lib/types";
+
 
 /**
  * Resolves a human-readable region name to its data code.
@@ -69,9 +71,14 @@ export const uiAvailableRegions = [
  * Used by the Analysis page and RegionSelector.
  */
 export async function getActiveRegions() {
-    return uiAvailableRegions.map(name => ({
+    return uiAvailableRegions.map((name): Region => ({
         id: resolveRegionCode(name),
-        name: name
+        name: name,
+        country: name === "Global" ? "Global" : "Indonesia", // Approximate for MVP
+        lat: 0, // Mock lat
+        lon: 0, // Mock lon
+        active: true,
+        created_at: new Date().toISOString()
     }));
 }
 
