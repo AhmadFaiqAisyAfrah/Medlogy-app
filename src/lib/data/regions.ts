@@ -63,3 +63,15 @@ export const uiAvailableRegions = [
     "West Sumatra",
     "Yogyakarta"
 ];
+
+/**
+ * Returns the list of active regions for the dashboard.
+ * Used by the Analysis page and RegionSelector.
+ */
+export async function getActiveRegions() {
+    return uiAvailableRegions.map(name => ({
+        id: resolveRegionCode(name),
+        name: name
+    }));
+}
+
