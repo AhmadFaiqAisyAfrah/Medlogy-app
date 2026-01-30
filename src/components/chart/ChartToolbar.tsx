@@ -21,9 +21,10 @@ import { cn } from "@/lib/utils";
 import { indicatorRegistry } from "@/lib/chart/indicatorRegistry";
 import { uiAvailableRegions } from "@/lib/data/regions";
 import { Series, TimeRange } from "./chart.types";
+import type { ToolMode } from "./chart.types";
 import { createPortal } from "react-dom";
 
-type ToolMode = "view" | "select" | "trend" | "threshold" | "note";
+// export type ToolMode = "view" | "select" | "trend" | "threshold" | "note"; // MOVED TO TYPES
 
 export interface ChartToolbarProps {
     primarySeries: Series;
@@ -32,6 +33,8 @@ export interface ChartToolbarProps {
     setComparisonSeries: (series: Series[]) => void;
     timeRange: TimeRange;
     setTimeRange: (range: TimeRange) => void;
+    activeTool: ToolMode;
+    setActiveTool: (mode: ToolMode) => void;
 }
 
 export function ChartToolbar({
@@ -40,10 +43,10 @@ export function ChartToolbar({
     comparisonSeries,
     setComparisonSeries,
     timeRange,
-    setTimeRange
+    setTimeRange,
+    activeTool,
+    setActiveTool
 }: ChartToolbarProps) {
-    const [activeTool, setActiveTool] = useState<ToolMode>("view");
-
     const isCompareMode = comparisonSeries.length > 0;
 
     /* ---------- Helpers ---------- */

@@ -1,0 +1,1225 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1990,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1991,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1992,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1993,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1994,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1997,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1995,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,1999,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,1996,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,1998,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2000,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.52320754883,1.6184436186500002,0.14256337966
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2002,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2013,4.48237733769,10.87866566157,1.99350399229
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2001,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2014,7.775161487179999,17.42195037553,3.63519076925
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2004,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2003,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2015,11.85508829753,28.726845496,5.04300119978
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2012,2.04203850209,5.51571574671,0.76064806176
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2006,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2005,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2016,123.03135259201001,285.99428807822,53.87443275873
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2017,16.39800706603,48.80131600267,5.69124287126
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2018,6.9924888612,16.26571693286,2.85679874861
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2019,4.33785777072,10.37571053904,1.69416375191
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2020,3.00192036595,7.179868430780001,1.17212777976
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2007,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2021,2.0758721044399997,4.9658958902300006,0.8104480314400001
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2009,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4730,Central Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4716,Lampung,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4731,South Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4717,Bangka-Belitung Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4732,East Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2008,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4718,Riau Islands,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2022,1.43655296013,3.4381080632400005,0.56093016796
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,1,Global,3,Both,22,All ages,935,Zika virus,3,Rate,2023,1.4273430060099999,3.4205162974200003,0.5561005180399999
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2010,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4737,Gorontalo,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4723,Yogyakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4709,Aceh,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.06780187780000001,0.14883749493,0.03204837907
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4719,North Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4733,North Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2011,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4738,West Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2017,1.12256e-06,1.6013399999999999e-06,7.5719e-07
+1,All Population,6,Incidence,4739,Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4724,East Java,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4720,Jakarta,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2012,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4710,North Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4734,Central Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2014,0.0,0.0,0.0
+1,All Population,6,Incidence,4711,West Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4725,Banten,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2017,8.635149e-05,0.00012318089,5.8245579999999995e-05
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4721,West Java,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2013,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2016,5.20756473924,11.431554930299999,2.46149537712
+1,All Population,6,Incidence,4735,South Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4722,Central Java,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4736,Southeast Sulawesi,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2015,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2017,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2016,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4712,Riau,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4740,North Maluku,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2018,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4713,Jambi,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4727,West Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4741,West Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4726,Bali,3,Both,22,All ages,935,Zika virus,3,Rate,2020,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2019,0.0,0.0,0.0
+1,All Population,6,Incidence,11,Indonesia,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2021,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4714,South Sumatra,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4728,East Nusa Tenggara,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4742,Papua,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2023,0.0,0.0,0.0
+1,All Population,6,Incidence,4715,Bengkulu,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0
+1,All Population,6,Incidence,4729,West Kalimantan,3,Both,22,All ages,935,Zika virus,3,Rate,2022,0.0,0.0,0.0

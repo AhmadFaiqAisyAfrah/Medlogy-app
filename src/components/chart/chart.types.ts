@@ -16,3 +16,5 @@ export interface ChartState {
     comparisons: Series[];
     timeRange: TimeRange;
 }
+
+export type ToolMode = "view" | "select" | "trend" | "threshold" | "note";
