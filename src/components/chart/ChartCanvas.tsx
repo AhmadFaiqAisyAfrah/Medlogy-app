@@ -71,7 +71,12 @@ export function ChartCanvas({
     const hasData = data && data.length > 0;
 
     // Threshold Logic
-    const [thresholds, setThresholds] = useState<number[]>([]);
+    interface Threshold {
+        id: string;
+        value: number;
+        label: string;
+    }
+    const [thresholds, setThresholds] = useState<Threshold[]>([]);
     const [editingId, setEditingId] = useState<string | null>(null);
 
     // Annotation Logic
@@ -106,7 +111,19 @@ export function ChartCanvas({
             const savedThresholds = localStorage.getItem(keyThresholds);
             if (savedThresholds) {
                 try {
-                    setThresholds(JSON.parse(savedThresholds));
+                    const parsed = JSON.parse(savedThresholds);
+                    // Migrate legacy number[] to Threshold[]
+                    const migrated = parsed.map((item: any) => {
+                        if (typeof item === 'number') {
+                            return {
+                                id: Math.random().toString(36).substr(2, 9),
+                                value: item,
+                                label: 'Threshold'
+                            };
+                        }
+                        return item;
+                    });
+                    setThresholds(migrated);
                 } catch (e) {
                     console.error("Failed to parse thresholds", e);
                 }
@@ -286,15 +303,11 @@ export function ChartCanvas({
                                                         <input
                                                             autoFocus
                                                             type="text"
-                                                            value={typeof th === 'object' ? (th.label ?? 'Threshold') : 'Threshold'}
+                                                            value={th.label ?? 'Threshold'}
                                                             onChange={(e) => {
                                                                 const newLabel = e.target.value;
-                                                                setThresholds(prev => prev.map((item: any, i) => {
+                                                                setThresholds(prev => prev.map((item, i) => {
                                                                     if (i !== idx) return item;
-                                                                    // Handle primitive number conversion safety (though new ones are objects)
-                                                                    if (typeof item === 'number') {
-                                                                        return { id: Math.random().toString(36), value: item, label: newLabel };
-                                                                    }
                                                                     return { ...item, label: newLabel };
                                                                 }));
                                                             }}
@@ -305,12 +318,12 @@ export function ChartCanvas({
                                                             placeholder="Label..."
                                                         />
                                                     ) : (
-                                                        <span className="text-xs text-white font-bold truncate cursor-default" title={typeof th === 'object' ? th.label : 'Threshold'}>
-                                                            {typeof th === 'object' ? (th.label || 'Threshold') : 'Threshold'}
+                                                        <span className="text-xs text-white font-bold truncate cursor-default" title={th.label}>
+                                                            {th.label ?? 'Threshold'}
                                                         </span>
                                                     )}
                                                     <span className="text-[10px] text-red-400 font-mono">
-                                                        {(typeof th.value === 'number' ? th.value : (th.value?.value || 0)).toLocaleString()}
+                                                        {(th.value).toLocaleString()}
                                                     </span>
                                                 </div>
                                                 {editingId === (th.id || idx) ? (

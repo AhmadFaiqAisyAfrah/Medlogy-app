@@ -152,7 +152,7 @@ export function useChartInstance(
         // ================================
         // OVERLAY: ANNOTATIONS (MarkPoint)
         // ================================
-        if (annotations.length > 0 && options.series && options.series.length > 0) {
+        if (annotations.length > 0 && options.series && Array.isArray(options.series) && options.series.length > 0) {
             (options.series[0] as any).markPoint = {
                 symbol: 'pin',
                 symbolSize: 50,
